@@ -1,0 +1,5015 @@
+[
+  {
+    "vote_id": "m_2023_01_25__p2022_112_a04__1",
+    "meeting_key": "m_2023_01_25",
+    "meeting_date": "2023-01-25",
+    "item_key": "p2022_112_a04",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/531",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 16,
+      "contre": 24,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_01_27__p2022_112_a02__1",
+    "meeting_key": "m_2023_01_27",
+    "meeting_date": "2023-01-27",
+    "item_key": "p2022_112_a02",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/529",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 11,
+      "contre": 28,
+      "ne_vote_pas": 1,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Bury, Tina",
+        "De Lisle, David",
+        "Fairclough, Simon",
+        "Gollop, John",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Parkinson, Charles",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Queripel, Lester"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_01_27__p2022_112_a12__1",
+    "meeting_key": "m_2023_01_27",
+    "meeting_date": "2023-01-27",
+    "item_key": "p2022_112_a12",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/546",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 11,
+      "contre": 26,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "De Lisle, David",
+        "Dyke, John",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Le Tissier, Chris",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Queripel, Lester",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [
+        "Ferbrache, Peter",
+        "Helyar, Mark",
+        "Mahoney, David"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_15__p2022_112_a05__1",
+    "meeting_key": "m_2023_02_15",
+    "meeting_date": "2023-02-15",
+    "item_key": "p2022_112_a05",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/555",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 22,
+      "contre": 4,
+      "ne_vote_pas": 13,
+      "did_not_vote": 0,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Fairclough, Simon",
+        "Ferbrache, Peter",
+        "Roffey, Peter",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_15__p2022_112_a14__1",
+    "meeting_key": "m_2023_02_15",
+    "meeting_date": "2023-02-15",
+    "item_key": "p2022_112_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/598",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 34,
+      "contre": 3,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Inder, Neil",
+        "Prow, Robert"
+      ],
+      "ne_vote_pas": [
+        "Brouard, Al"
+      ],
+      "did_not_vote": [
+        "Gollop, John"
+      ],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_15__p2022_112_a16__1",
+    "meeting_key": "m_2023_02_15",
+    "meeting_date": "2023-02-15",
+    "item_key": "p2022_112_a16",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/600",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 32,
+      "contre": 7,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Dyke, John",
+        "Le Tissier, Chris",
+        "McKenna, Liam",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_16__p2022_112_a06__1",
+    "meeting_key": "m_2023_02_16",
+    "meeting_date": "2023-02-16",
+    "item_key": "p2022_112_a06",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/556",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 4,
+      "contre": 30,
+      "ne_vote_pas": 3,
+      "did_not_vote": 2,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "De Lisle, David",
+        "Gollop, John",
+        "Matthews, Aidan",
+        "McKenna, Liam"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Queripel, Lester"
+      ],
+      "did_not_vote": [
+        "St Pier, Gavin",
+        "Trott, Lyndon"
+      ],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_16__p2022_112_a07__1",
+    "meeting_key": "m_2023_02_16",
+    "meeting_date": "2023-02-16",
+    "item_key": "p2022_112_a07",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/557",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 7,
+      "contre": 29,
+      "ne_vote_pas": 3,
+      "did_not_vote": 0,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Bury, Tina",
+        "Fairclough, Simon",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Matthews, Aidan",
+        "Queripel, Lester",
+        "Taylor, Andrew"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Kazantseva-Miller, Sasha",
+        "Roberts, Steve",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_16__p2022_112_a08__1",
+    "meeting_key": "m_2023_02_16",
+    "meeting_date": "2023-02-16",
+    "item_key": "p2022_112_a08",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/558",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 22,
+      "contre": 16,
+      "ne_vote_pas": 1,
+      "did_not_vote": 0,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Murray, Bob"
+      ],
+      "did_not_vote": [],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_16__p2022_112_a11__1",
+    "meeting_key": "m_2023_02_16",
+    "meeting_date": "2023-02-16",
+    "item_key": "p2022_112_a11",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/559",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 39,
+      "contre": 0,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_16__p2022_112_a17__1",
+    "meeting_key": "m_2023_02_16",
+    "meeting_date": "2023-02-16",
+    "item_key": "p2022_112_a17",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/625",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 36,
+      "contre": 0,
+      "ne_vote_pas": 1,
+      "did_not_vote": 2,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [],
+      "ne_vote_pas": [
+        "Kazantseva-Miller, Sasha"
+      ],
+      "did_not_vote": [
+        "Brouard, Al",
+        "Bury, Tina"
+      ],
+      "absent": [
+        "Parkinson, Charles"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop01_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop01_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/603",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 39,
+      "contre": 0,
+      "ne_vote_pas": 1,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [],
+      "ne_vote_pas": [
+        "Brouard, Al"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop02_opt_a_ins_a14_am_a05_a17__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop02_opt_a_ins_a14_am_a05_a17",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/604",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 15,
+      "contre": 25,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Ferbrache, Peter",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop03_opt_b_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop03_opt_b_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/606",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 3,
+      "contre": 37,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Murray, Bob"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop04_opt_c_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop04_opt_c_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/609",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 9,
+      "contre": 31,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "De Lisle, David",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Le Tissier, Chris",
+        "Meerveld, Carl",
+        "Oliver, Victoria",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop05A_ins_a16__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop05A_ins_a16",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/620",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 18,
+      "contre": 21,
+      "ne_vote_pas": 1,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Bury, Tina",
+        "De Sausmarez, Lindsay",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter"
+      ],
+      "contre": [
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "McKenna, Liam",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop05_opt_d_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop05_opt_d_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/605",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 20,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop06_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop06_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/607",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 21,
+      "contre": 17,
+      "ne_vote_pas": 2,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Brouard, Al",
+        "Bury, Tina",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "Dudley-Owen, Andrea",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Leadbeater, Marc",
+        "Mahoney, David"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop07_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop07_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/611",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 23,
+      "contre": 17,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Haskins, Sam",
+        "Inder, Neil",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop08_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop08_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/608",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 26,
+      "contre": 14,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "De Lisle, David",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Meerveld, Carl",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop09_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop09_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/610",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 26,
+      "contre": 13,
+      "ne_vote_pas": 1,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Brouard, Al",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Haskins, Sam",
+        "Inder, Neil",
+        "McKenna, Liam",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [
+        "Mahoney, David"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop10_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop10_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/612",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 24,
+      "contre": 14,
+      "ne_vote_pas": 2,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roffey, Peter"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Roberts, Steve",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop11_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop11_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/613",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 22,
+      "contre": 15,
+      "ne_vote_pas": 3,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Burford, Yvonne",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tocq, Jonathan",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Falla, Steve",
+        "Moakes, Nick",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop12_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop12_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/614",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 34,
+      "contre": 6,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Dyke, John",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop13_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop13_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/615",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 33,
+      "contre": 2,
+      "ne_vote_pas": 5,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Soulsby, Heidi",
+        "St Pier, Gavin"
+      ],
+      "ne_vote_pas": [
+        "Dudley-Owen, Andrea",
+        "Inder, Neil",
+        "Prow, Robert",
+        "Roffey, Peter",
+        "Taylor, Andrew"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop14A_ins_a08__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop14A_ins_a08",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/623",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 23,
+      "contre": 17,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop14B_ins_a11__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop14B_ins_a11",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/624",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 40,
+      "contre": 0,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan"
+      ],
+      "contre": [],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop14_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop14_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/616",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 30,
+      "contre": 7,
+      "ne_vote_pas": 3,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Dudley-Owen, Andrea",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Burford, Yvonne",
+        "Inder, Neil",
+        "Le Tocq, Jonathan"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop15_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop15_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/617",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 29,
+      "contre": 8,
+      "ne_vote_pas": 3,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Ferbrache, Peter",
+        "Mahoney, David",
+        "Oliver, Victoria",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Le Tocq, Jonathan"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop16_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop16_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/618",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 33,
+      "contre": 5,
+      "ne_vote_pas": 2,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Ferbrache, Peter",
+        "Oliver, Victoria",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Blin, Chris",
+        "Mahoney, David"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_02_17__p2022_112_prop17_ins_a14__1",
+    "meeting_key": "m_2023_02_17",
+    "meeting_date": "2023-02-17",
+    "item_key": "p2022_112_prop17_ins_a14",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/619",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 39,
+      "contre": 1,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_17__p2023_101_a01__1",
+    "meeting_key": "m_2023_10_17",
+    "meeting_date": "2023-10-17",
+    "item_key": "p2023_101_a01",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%201",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 19,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 1
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Cameron, Andy",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": [
+        "Leadbeater, Marc"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2023_10_17__p2023_101_a04__1",
+    "meeting_key": "m_2023_10_17",
+    "meeting_date": "2023-10-17",
+    "item_key": "p2023_101_a04",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%204",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 16,
+      "contre": 24,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_18__p2023_101_a06__1",
+    "meeting_key": "m_2023_10_18",
+    "meeting_date": "2023-10-18",
+    "item_key": "p2023_101_a06",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%206",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 19,
+      "ne_vote_pas": 1,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Brouard, Al",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Burford, Yvonne"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_18__p2023_101_a07__1",
+    "meeting_key": "m_2023_10_18",
+    "meeting_date": "2023-10-18",
+    "item_key": "p2023_101_a07",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%207",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 11,
+      "contre": 29,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Bury, Tina",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Gollop, John",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Parkinson, Charles",
+        "Soulsby, Heidi",
+        "Taylor, Andrew"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "St Pier, Gavin",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_19__p2023_101_a02__1",
+    "meeting_key": "m_2023_10_19",
+    "meeting_date": "2023-10-19",
+    "item_key": "p2023_101_a02",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%202",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 27,
+      "contre": 11,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Dyke, John",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Le Tissier, Chris",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_19__p2023_101_a05__1",
+    "meeting_key": "m_2023_10_19",
+    "meeting_date": "2023-10-19",
+    "item_key": "p2023_101_a05",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%205",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 36,
+      "contre": 4,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Brouard, Al",
+        "Haskins, Sam",
+        "Mahoney, David",
+        "Roffey, Peter"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_19__p2023_101_a12__1",
+    "meeting_key": "m_2023_10_19",
+    "meeting_date": "2023-10-19",
+    "item_key": "p2023_101_a12",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%2012",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 31,
+      "contre": 7,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Brouard, Al",
+        "Bury, Tina",
+        "De Sausmarez, Lindsay",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Parkinson, Charles",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Le Tissier, Chris"
+      ],
+      "did_not_vote": [
+        "Leadbeater, Marc"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_a03__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_a03",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%203",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 16,
+      "contre": 24,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Gabriel, Adrian",
+        "Kazantseva-Miller, Sasha",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Cameron, Andy",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_a09__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_a09",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%209",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 10,
+      "contre": 30,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Le Tissier, Chris",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_a10__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_a10",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%2010",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 16,
+      "contre": 22,
+      "ne_vote_pas": 2,
+      "did_not_vote": 0,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Matthews, Aidan",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Brouard, Al",
+        "Le Tissier, Chris"
+      ],
+      "did_not_vote": [],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_a11__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_a11",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%2011",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 17,
+      "contre": 16,
+      "ne_vote_pas": 5,
+      "did_not_vote": 2,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Gabriel, Adrian",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Falla, Steve",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Roberts, Steve",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan",
+        "Roffey, Peter"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop01_ins_a01__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop01_ins_a01",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1049",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 35,
+      "contre": 4,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Le Tissier, Chris",
+        "Soulsby, Heidi",
+        "St Pier, Gavin"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop02_ins_a01__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop02_ins_a01",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1050",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 15,
+      "contre": 24,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop03_ins_a01__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop03_ins_a01",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1051",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 37,
+      "contre": 2,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Gabriel, Adrian",
+        "Soulsby, Heidi"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop04_ins_a01__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop04_ins_a01",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1052",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 2,
+      "contre": 37,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Brouard, Al",
+        "Gollop, John"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop05_ins_a01__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop05_ins_a01",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1053",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 17,
+      "contre": 22,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop06_ins_a06__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop06_ins_a06",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1054",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 23,
+      "contre": 16,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Le Tissier, Chris",
+        "Mahoney, David",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop06_opt01_ins_a06__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop06_opt01_ins_a06",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1097",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 6,
+      "contre": 33,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Brouard, Al",
+        "Bury, Tina",
+        "Kazantseva-Miller, Sasha",
+        "Matthews, Aidan",
+        "Moakes, Nick",
+        "Roberts, Steve"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop06_opt02_ins_a06__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop06_opt02_ins_a06",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1098",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 15,
+      "contre": 24,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Brouard, Al",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Burford, Yvonne",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Le Tissier, Chris",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop06_opt03_ins_a06__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop06_opt03_ins_a06",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1099",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 21,
+      "contre": 18,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Brouard, Al",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "De Lisle, David",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Le Tissier, Chris",
+        "Mahoney, David",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Queripel, Lester",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop09B_ins_a11__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop09B_ins_a11",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1084",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 15,
+      "ne_vote_pas": 3,
+      "did_not_vote": 2,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Falla, Steve",
+        "Roberts, Steve",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan",
+        "Roffey, Peter"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop09C_ins_a02__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop09C_ins_a02",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1089",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 9,
+      "ne_vote_pas": 3,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Moakes, Nick"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Dyke, John",
+        "Haskins, Sam",
+        "Le Tissier, Chris",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Oliver, Victoria",
+        "Roberts, Steve",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop09D_ins_a05__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop09D_ins_a05",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1090",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 29,
+      "contre": 7,
+      "ne_vote_pas": 3,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "De Lisle, David",
+        "Haskins, Sam",
+        "Mahoney, David",
+        "Oliver, Victoria"
+      ],
+      "ne_vote_pas": [
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop09E_ins_a05__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop09E_ins_a05",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1091",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 31,
+      "contre": 7,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Haskins, Sam",
+        "Mahoney, David",
+        "Roffey, Peter",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Blin, Chris"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop09F_ins_a05__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop09F_ins_a05",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1092",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 31,
+      "contre": 7,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "De Lisle, David",
+        "Haskins, Sam",
+        "Mahoney, David",
+        "Oliver, Victoria",
+        "Roffey, Peter"
+      ],
+      "ne_vote_pas": [
+        "Blin, Chris"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop09G_ins_a05__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop09G_ins_a05",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1093",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 30,
+      "contre": 8,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "De Lisle, David",
+        "Haskins, Sam",
+        "Mahoney, David",
+        "Oliver, Victoria",
+        "Roffey, Peter"
+      ],
+      "ne_vote_pas": [
+        "Blin, Chris"
+      ],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop09H_ins_a05__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop09H_ins_a05",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1094",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 31,
+      "contre": 8,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Mahoney, David",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2023_10_20__p2023_101_prop10_ins_a01__1",
+    "meeting_key": "m_2023_10_20",
+    "meeting_date": "2023-10-20",
+    "item_key": "p2023_101_prop10_ins_a01",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1076",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 39,
+      "contre": 0,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 0
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "St Pier, Gavin",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Le Tocq, Jonathan"
+      ],
+      "absent": []
+    }
+  },
+  {
+    "vote_id": "m_2024_11_05__p2024_91_a03_prop01_prop02__1",
+    "meeting_key": "m_2024_11_05",
+    "meeting_date": "2024-11-05",
+    "item_key": "p2024_91_a03_prop01_prop02",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%203",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 6,
+      "contre": 27,
+      "ne_vote_pas": 2,
+      "did_not_vote": 2,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "De Lisle, David",
+        "Helyar, Mark",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [
+        "Dyke, John",
+        "Roberts, Steve"
+      ],
+      "did_not_vote": [
+        "Bury, Tina",
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Cameron, Andy",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_05__p2024_91_a03_prop03__1",
+    "meeting_key": "m_2024_11_05",
+    "meeting_date": "2024-11-05",
+    "item_key": "p2024_91_a03_prop03",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%203",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 18,
+      "contre": 14,
+      "ne_vote_pas": 3,
+      "did_not_vote": 2,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "De Lisle, David",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gollop, John",
+        "Le Tocq, Jonathan",
+        "Matthews, Aidan",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [
+        "Burford, Yvonne",
+        "Dudley-Owen, Andrea",
+        "Roffey, Peter"
+      ],
+      "did_not_vote": [
+        "Bury, Tina",
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Cameron, Andy",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_05__p2024_91_a03_prop04__1",
+    "meeting_key": "m_2024_11_05",
+    "meeting_date": "2024-11-05",
+    "item_key": "p2024_91_a03_prop04",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%203",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 18,
+      "contre": 17,
+      "ne_vote_pas": 0,
+      "did_not_vote": 2,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "De Lisle, David",
+        "Dyke, John",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Le Tocq, Jonathan",
+        "Matthews, Aidan",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Bury, Tina",
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Cameron, Andy",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_05__p2024_91_a03_prop05__1",
+    "meeting_key": "m_2024_11_05",
+    "meeting_date": "2024-11-05",
+    "item_key": "p2024_91_a03_prop05",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%203",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 16,
+      "contre": 17,
+      "ne_vote_pas": 2,
+      "did_not_vote": 2,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "De Lisle, David",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gollop, John",
+        "Le Tocq, Jonathan",
+        "Matthews, Aidan",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [
+        "Brouard, Al",
+        "Oliver, Victoria"
+      ],
+      "did_not_vote": [
+        "Bury, Tina",
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Cameron, Andy",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_05__p2024_91_a05__1",
+    "meeting_key": "m_2024_11_05",
+    "meeting_date": "2024-11-05",
+    "item_key": "p2024_91_a05",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%205",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 14,
+      "contre": 21,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 5
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Bury, Tina",
+        "De Lisle, David",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Parkinson, Charles",
+        "Queripel, Lester",
+        "Taylor, Andrew",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": [
+        "Cameron, Andy",
+        "Gabriel, Adrian",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_06__p2024_91_a22__1",
+    "meeting_key": "m_2024_11_06",
+    "meeting_date": "2024-11-06",
+    "item_key": "p2024_91_a22",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%2022",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 15,
+      "ne_vote_pas": 0,
+      "did_not_vote": 2,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Matthews, Aidan",
+        "Murray, Bob",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "McKenna, Liam",
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Cameron, Andy",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_07__p2024_91_a08__1",
+    "meeting_key": "m_2024_11_07",
+    "meeting_date": "2024-11-07",
+    "item_key": "p2024_91_a08",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%208",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 29,
+      "contre": 0,
+      "ne_vote_pas": 2,
+      "did_not_vote": 7,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [],
+      "ne_vote_pas": [
+        "Dyke, John",
+        "Vermeulen, Simon"
+      ],
+      "did_not_vote": [
+        "Blin, Chris",
+        "Brouard, Al",
+        "Cameron, Andy",
+        "Leadbeater, Marc",
+        "Murray, Bob",
+        "Roberts, Steve",
+        "Roffey, Peter"
+      ],
+      "absent": [
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_07__p2024_91_a24__1",
+    "meeting_key": "m_2024_11_07",
+    "meeting_date": "2024-11-07",
+    "item_key": "p2024_91_a24",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%2024",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 30,
+      "contre": 7,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "De Lisle, David",
+        "Dyke, John",
+        "Gollop, John",
+        "Le Tissier, Chris",
+        "McKenna, Liam",
+        "Meerveld, Carl"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Burford, Yvonne"
+      ],
+      "absent": [
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_07__p2024_91_a25__1",
+    "meeting_key": "m_2024_11_07",
+    "meeting_date": "2024-11-07",
+    "item_key": "p2024_91_a25",
+    "label": "Recorded vote",
+    "source_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%2025",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 11,
+      "ne_vote_pas": 7,
+      "did_not_vote": 0,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gollop, John",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Matthews, Aidan",
+        "Meerveld, Carl",
+        "Murray, Bob",
+        "Queripel, Lester",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Dyke, John",
+        "Ferbrache, Peter",
+        "Helyar, Mark",
+        "Le Tissier, Chris",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Parkinson, Charles",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Dudley-Owen, Andrea",
+        "Haskins, Sam",
+        "Inder, Neil",
+        "Leadbeater, Marc",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [],
+      "absent": [
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_08__p2024_91_prop01A_ins_a22__1",
+    "meeting_key": "m_2024_11_08",
+    "meeting_date": "2024-11-08",
+    "item_key": "p2024_91_prop01A_ins_a22",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1713",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 10,
+      "contre": 24,
+      "ne_vote_pas": 2,
+      "did_not_vote": 1,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Brouard, Al",
+        "Fairclough, Simon",
+        "Gollop, John",
+        "Le Tocq, Jonathan",
+        "Murray, Bob",
+        "Queripel, Lester",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "contre": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Inder, Neil",
+        "Matthews, Aidan"
+      ],
+      "did_not_vote": [
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Bury, Tina",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_08__p2024_91_prop01B_ins_a22__1",
+    "meeting_key": "m_2024_11_08",
+    "meeting_date": "2024-11-08",
+    "item_key": "p2024_91_prop01B_ins_a22",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1714",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 15,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Taylor, Andrew"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Falla, Steve",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Soulsby, Heidi",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Bury, Tina",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_08__p2024_91_prop01C_ins_a24__1",
+    "meeting_key": "m_2024_11_08",
+    "meeting_date": "2024-11-08",
+    "item_key": "p2024_91_prop01C_ins_a24",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1728",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 20,
+      "contre": 15,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Brouard, Al",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tocq, Jonathan",
+        "Mahoney, David",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Taylor, Andrew"
+      ],
+      "contre": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dyke, John",
+        "Falla, Steve",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Soulsby, Heidi",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Snowdon, Alexander"
+      ],
+      "did_not_vote": [
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Bury, Tina",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_08__p2024_91_prop32_ins_a25__1",
+    "meeting_key": "m_2024_11_08",
+    "meeting_date": "2024-11-08",
+    "item_key": "p2024_91_prop32_ins_a25",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1711",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 32,
+      "contre": 3,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "De Lisle, David",
+        "Ferbrache, Peter",
+        "Taylor, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Moakes, Nick"
+      ],
+      "did_not_vote": [
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Bury, Tina",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_08__p2024_91_prop33_ins_a03__1",
+    "meeting_key": "m_2024_11_08",
+    "meeting_date": "2024-11-08",
+    "item_key": "p2024_91_prop33_ins_a03",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1712",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 21,
+      "contre": 14,
+      "ne_vote_pas": 1,
+      "did_not_vote": 1,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "De Lisle, David",
+        "Dyke, John",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Oliver, Victoria",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "contre": [
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Fairclough, Simon",
+        "Gollop, John",
+        "Le Tocq, Jonathan",
+        "Murray, Bob",
+        "Prow, Robert",
+        "Roffey, Peter",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon"
+      ],
+      "ne_vote_pas": [
+        "Haskins, Sam"
+      ],
+      "did_not_vote": [
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Bury, Tina",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2024_11_08__p2024_91_prop36_ins_a08__1",
+    "meeting_key": "m_2024_11_08",
+    "meeting_date": "2024-11-08",
+    "item_key": "p2024_91_prop36_ins_a08",
+    "label": "Recorded vote",
+    "source_url": "https://statesvoting-records.gov.gg/Propositions/Details/1721",
+    "result": {
+      "method": "recorded"
+    },
+    "tallies": {
+      "pour": 36,
+      "contre": 0,
+      "ne_vote_pas": 0,
+      "did_not_vote": 1,
+      "absent": 3
+    },
+    "by_bucket": {
+      "pour": [
+        "Aldwell, Sue",
+        "Blin, Chris",
+        "Brouard, Al",
+        "Burford, Yvonne",
+        "Cameron, Andy",
+        "De Lisle, David",
+        "De Sausmarez, Lindsay",
+        "Dudley-Owen, Andrea",
+        "Dyke, John",
+        "Fairclough, Simon",
+        "Falla, Steve",
+        "Ferbrache, Peter",
+        "Gollop, John",
+        "Haskins, Sam",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Le Tissier, Chris",
+        "Le Tocq, Jonathan",
+        "Leadbeater, Marc",
+        "Mahoney, David",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Meerveld, Carl",
+        "Moakes, Nick",
+        "Murray, Bob",
+        "Oliver, Victoria",
+        "Prow, Robert",
+        "Queripel, Lester",
+        "Roberts, Steve",
+        "Roffey, Peter",
+        "Snowdon, Alexander",
+        "Soulsby, Heidi",
+        "Taylor, Andrew",
+        "Trott, Lyndon",
+        "Vermeulen, Simon"
+      ],
+      "contre": [],
+      "ne_vote_pas": [],
+      "did_not_vote": [
+        "Parkinson, Charles"
+      ],
+      "absent": [
+        "Bury, Tina",
+        "Gabriel, Adrian",
+        "St Pier, Gavin"
+      ]
+    }
+  }
+]

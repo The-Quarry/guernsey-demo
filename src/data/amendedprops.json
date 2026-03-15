@@ -1,0 +1,541 @@
+{
+  "item_key": "p2022_112_prop01_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 1",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 1 (as inserted by Amdt 14)",
+  "sort_order": 201,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/603",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 1 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop02_opt_a_ins_a14_am_a05_a17",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 2",
+  "amendment_ref": "OPTION A (As inserted by Amdt 14 AND amended by Amdts 5 & 17)",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 2 — Option A (inserted by Amdt 14; Amdts by A5 & A17)",
+  "sort_order": 202,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/604",
+  "outcome": { "status": "defeated", "label": "Defeated" },
+  "notes": "Proposition 2, Option A, inserted by Amendment 14 and further amended by Amendments 5 and 17.",
+  "inserted_by_item_key": "p2022_112_a14",
+  "amended_by_item_keys": ["p2022_112_a05", "p2022_112_a17"]
+}
+,
+{
+  "item_key": "p2022_112_prop03_opt_b_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 3",
+  "amendment_ref": "Option B as inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 3 — Option B (as inserted by A14)",
+  "sort_order": 203,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/606",
+  "outcome": { "status": "defeated", "label": "Defeated" },
+  "notes": "Proposition 3, Option B, as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop04_opt_c_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 4",
+  "amendment_ref": "Option C as inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 4 — Option C (as inserted by A14)",
+  "sort_order": 204,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/609",
+  "outcome": { "status": "defeated", "label": "Defeated" },
+  "notes": "Proposition 4, Option C, as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop05_opt_d_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 5",
+  "amendment_ref": "Option D as inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 5 — Option D (as inserted by A14)",
+  "sort_order": 205,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/605",
+  "outcome": { "status": "defeated", "label": "Defeated" },
+  "notes": "Proposition 5, Option D, as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop05A_ins_a16",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 5A",
+  "amendment_ref": "As inserted by Amdt 16",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 5A (as inserted by Amdt 16)",
+  "sort_order": 206,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/620",
+  "outcome": { "status": "defeated", "label": "Defeated" },
+  "notes": "Proposition 5A as inserted by Amendment 16.",
+  "inserted_by_item_key": "p2022_112_a16"
+}
+,
+{
+  "item_key": "p2022_112_prop06_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 6",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 6 (as inserted by Amdt 14)",
+  "sort_order": 207,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/607",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 6 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop07_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 7",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 7 (as inserted by Amdt 14)",
+  "sort_order": 208,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/611",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 7 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop08_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 8",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 8 (as inserted by Amdt 14)",
+  "sort_order": 209,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/608",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 8 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop09_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 9",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 9 (as inserted by Amdt 14)",
+  "sort_order": 210,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/610",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 9 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop10_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 10",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 10 (as inserted by Amdt 14)",
+  "sort_order": 211,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/612",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 10 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop11_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 11",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 11 (as inserted by Amdt 14)",
+  "sort_order": 212,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/613",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 11 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop12_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 12",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 12 (as inserted by Amdt 14)",
+  "sort_order": 213,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/614",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 12 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop13_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 13",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 13 (as inserted by Amdt 14)",
+  "sort_order": 214,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/615",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 13 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop14_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 14",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 14 (as inserted by Amdt 14)",
+  "sort_order": 215,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/616",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 14 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop14A_ins_a08",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 14A",
+  "amendment_ref": "As inserted by Amdt 8",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 14A (as inserted by Amdt 8)",
+  "sort_order": 216,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/623",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 14A as inserted by Amendment 8.",
+  "inserted_by_item_key": "p2022_112_a08"
+}
+,
+{
+  "item_key": "p2022_112_prop14B_ins_a11",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 14B",
+  "amendment_ref": "As inserted by Amdt 11",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 14B (as inserted by Amdt 11)",
+  "sort_order": 217,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/624",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 14B as inserted by Amendment 11.",
+  "inserted_by_item_key": "p2022_112_a11"
+}
+,
+{
+  "item_key": "p2022_112_prop15_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 15",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 15 (as inserted by Amdt 14)",
+  "sort_order": 218,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/617",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 15 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop16_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 16",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 16 (as inserted by Amdt 14)",
+  "sort_order": 219,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/618",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 16 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,
+{
+  "item_key": "p2022_112_prop17_ins_a14",
+  "segments": [
+    {
+      "meeting_key": "m_2023_02_17",
+      "meeting_date": "2023-02-17",
+      "start_page": 11,
+      "end_page": 98,
+      "start_speech_id": "sp_m_2023_02_17_00003",
+      "end_speech_id": "sp_m_2023_02_17_00118",
+      "trigger": "general_debate_amended_propositions",
+      "confidence": "high"
+    }
+  ],
+  "parent_item_key": "p2022_112_main",
+  "agenda_item_label": "The Tax Review: Phase 2",
+  "proposition_ref": "P.2022/112 Proposition 17",
+  "amendment_ref": "As inserted by Amdt 14",
+  "phase_type": "proposition_as_amended",
+  "phase_label": "Proposition 17 (as inserted by Amdt 14)",
+  "sort_order": 220,
+  "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/619",
+  "outcome": { "status": "passed", "label": "Passed" },
+  "notes": "Proposition 17 as inserted by Amendment 14.",
+  "inserted_by_item_key": "p2022_112_a14"
+}
+,

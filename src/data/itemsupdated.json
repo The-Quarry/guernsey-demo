@@ -1,0 +1,1704 @@
+[
+  {
+    "item_key": "p2022_112_main",
+    "segments": [
+      {
+        "meeting_key": "m_2023_01_25",
+        "meeting_date": "2023-01-25",
+        "start_page": 21,
+        "end_page": 35,
+        "start_speech_id": "sp_m_2023_01_25_00050",
+        "end_speech_id": "sp_m_2023_01_25_00050",
+        "trigger": "heading",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "bailiff_resume",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": null,
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "",
+    "phase_type": "main",
+    "phase_label": "Main debate",
+    "sort_order": 0,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Overall debate on the Phase 2 Tax Review proposals where Policy & Resources proposed a GST package but gave other options too. In the end all major changes were rejected."
+  },
+  {
+    "item_key": "p2022_112_a01",
+    "segments": [],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 1",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 1",
+    "sort_order": 1,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%201",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Prow/Dudley-Owen to ensure GST can only be changed by amending the law."
+  },
+  {
+    "item_key": "p2022_112_a02",
+    "segments": [
+      {
+        "meeting_key": "m_2023_01_27",
+        "meeting_date": "2023-01-27",
+        "start_page": 29,
+        "end_page": 71,
+        "start_speech_id": "sp_m_2023_01_27_00040",
+        "end_speech_id": "sp_m_2023_01_27_00102",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 2",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 2",
+    "sort_order": 2,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%202",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Parkinson/McKenna to bring in a new territorial corporate tax regime, stem spending growth and then report by December 2029 if more changes are needed."
+  },
+  {
+    "item_key": "p2022_112_a03",
+    "segments": [],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 3",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 3",
+    "sort_order": 3,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%203",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Roffey/Ferbrache to help lower income pensioner couples."
+  },
+  {
+    "item_key": "p2022_112_a04",
+    "segments": [
+      {
+        "meeting_key": "m_2023_01_25",
+        "meeting_date": "2023-01-25",
+        "start_page": 67,
+        "end_page": 84,
+        "start_speech_id": "sp_m_2023_01_25_00103",
+        "end_speech_id": "sp_m_2023_01_25_00110",
+        "trigger": "heading",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2023_01_26",
+        "meeting_date": "2023-01-26",
+        "start_page": 5,
+        "end_page": 81,
+        "start_speech_id": "sp_m_2023_01_26_00001",
+        "end_speech_id": "sp_m_2023_01_26_00082",
+        "trigger": "bailiff_resume",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2023_01_27",
+        "meeting_date": "2023-01-27",
+        "start_page": 5,
+        "end_page": 28,
+        "start_speech_id": "sp_m_2023_01_27_00001",
+        "end_speech_id": "sp_m_2023_01_27_00035",
+        "trigger": "bailiff_resume",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 4",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 4",
+    "sort_order": 4,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%204",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Soulsby/St Pier to establish a special investigation committees to review what can be done about spending and tax at the same time as cutting some spending."
+  },
+  {
+    "item_key": "p2022_112_a05",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_15",
+        "meeting_date": "2023-02-15",
+        "start_page": 90,
+        "end_page": 96,
+        "start_speech_id": "sp_m_2023_02_15_00199",
+        "end_speech_id": "sp_m_2023_02_15_00221",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 5",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 5",
+    "sort_order": 5,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%205",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Gollop/Matthews to exempt food and charities from GST."
+  },
+  {
+    "item_key": "p2022_112_a06",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_16",
+        "meeting_date": "2023-02-16",
+        "start_page": 24,
+        "end_page": 31,
+        "start_speech_id": "sp_m_2023_02_16_00047",
+        "end_speech_id": "sp_m_2023_02_16_00064",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 6",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 6",
+    "sort_order": 6,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%206",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Gollop/Matthews to increase the income tax allowance by £5,525 if GST came in."
+  },
+  {
+    "item_key": "p2022_112_a07",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_16",
+        "meeting_date": "2023-02-16",
+        "start_page": 65,
+        "end_page": 87,
+        "start_speech_id": "sp_m_2023_02_16_00130",
+        "end_speech_id": "sp_m_2023_02_16_00161",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 7",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 7",
+    "sort_order": 7,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%207",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Matthews/Gollop to raise more money from property tax and agree in principal to a new way of calculating it based on property value."
+  },
+  {
+    "item_key": "p2022_112_a08",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_16",
+        "meeting_date": "2023-02-16",
+        "start_page": 32,
+        "end_page": 64,
+        "start_speech_id": "sp_m_2023_02_16_00065",
+        "end_speech_id": "sp_m_2023_02_16_00129",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 8",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 8",
+    "sort_order": 8,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%208",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Burford/Trott to increase the cost of capital projects which can be approved by P&R without a report going to the States from £3m to £5m."
+  },
+  {
+    "item_key": "p2022_112_a09",
+    "segments": [],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 9",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 9",
+    "sort_order": 9,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%209",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Helyar/Ferbrache for large spendings cuts in Budgets between 2024 and 2028 should the main proposal be lost or measures introduced not raise at least £50m. to £60m. "
+  },
+  {
+    "item_key": "p2022_112_a10",
+    "segments": [],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 10",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 10",
+    "sort_order": 10,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2010",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Le Tocq/Ferbrache"
+  },
+  {
+    "item_key": "p2022_112_a11",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_16",
+        "meeting_date": "2023-02-16",
+        "start_page": 55,
+        "end_page": 64,
+        "start_speech_id": "sp_m_2023_02_16_00115",
+        "end_speech_id": "sp_m_2023_02_16_00129",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 11",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 11",
+    "sort_order": 11,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2011",
+    "outcome": {
+      "status": "passed",
+      "label": "passed"
+    },
+    "notes": "Proposed by Leadbeater/Cameron for a report on what is causing those who could work not to."
+  },
+  {
+    "item_key": "p2022_112_a12",
+    "segments": [
+      {
+        "meeting_key": "m_2023_01_27",
+        "meeting_date": "2023-01-27",
+        "start_page": 74,
+        "end_page": 83,
+        "start_speech_id": "sp_m_2023_01_27_00114",
+        "end_speech_id": "sp_m_2023_01_27_00145",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 12",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 12",
+    "sort_order": 12,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2012",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Meerveld/Vermeulen to remove GST from all proposals."
+  },
+  {
+    "item_key": "p2022_112_a13",
+    "segments": [],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 13",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 13",
+    "sort_order": 13,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2013",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Ferbrache/Helyar setting out three options for the States to choose between, each to generate an extra £85m."
+  },
+  {
+    "item_key": "p2022_112_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_15",
+        "meeting_date": "2023-02-15",
+        "start_page": 36,
+        "end_page": 70,
+        "start_speech_id": "sp_m_2023_02_15_00103",
+        "end_speech_id": "sp_m_2023_02_15_00166",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 14",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 14",
+    "sort_order": 14,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2014",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Soulsby/St Pier for a package of measures without GST, other ways of raising income and a direction to costs reductions by £10m to £16m over 5 years, with a report after the election on if more action is needed."
+  },
+  {
+    "item_key": "p2022_112_a15",
+    "segments": [],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 15",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 15",
+    "sort_order": 15,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2015",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Roffey/Bury only if amendment 13 was successful, which was withdrawn."
+  },
+  {
+    "item_key": "p2022_112_a16",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_15",
+        "meeting_date": "2023-02-15",
+        "start_page": 71,
+        "end_page": 89,
+        "start_speech_id": "sp_m_2023_02_15_00167",
+        "end_speech_id": "sp_m_2023_02_15_00199",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 16",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 16",
+    "sort_order": 16,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2016",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Roffey/Bury to further change the amended package if GST was removed to include raising extra £10m. from motoring taxes."
+  },
+  {
+    "item_key": "p2022_112_a17",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_16",
+        "meeting_date": "2023-02-16",
+        "start_page": 88,
+        "end_page": 88,
+        "start_speech_id": "sp_m_2023_02_16_00162",
+        "end_speech_id": "sp_m_2023_02_16_00162",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112",
+    "amendment_ref": "Amendment 17",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 17",
+    "sort_order": 17,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2022-112%20Amdt%2017",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Gollop/Matthews to remove a reference to plated meals in the GST exemptions."
+  },
+  {
+    "item_key": "p2022_112_prop01_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 1",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 1 (as inserted by Amdt 14)",
+    "sort_order": 201,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/603",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Recognise that Guernsey’s public finances are not sustainable long-term and commits the government to urgently introduce phased spending controls, new revenue measures and reforms—especially to health and care—to secure the island’s future.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop02_opt_a_ins_a14_am_a05_a17",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 2",
+    "amendment_ref": "OPTION A (As inserted by Amdt 14 AND amended by Amdts 5 & 17)",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 2 — Option A (inserted by Amdt 14; Amdts by A5 & A17)",
+    "sort_order": 202,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/604",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "A package of revenue raising and cost reduction measures which included a 5% GST, with retail food and sales of books and clothes by charity exempted.",
+    "inserted_by_item_key": "p2022_112_a14",
+    "amended_by_item_keys": [
+      "p2022_112_a05",
+      "p2022_112_a17"
+    ]
+  },
+  {
+    "item_key": "p2022_112_prop03_opt_b_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 3",
+    "amendment_ref": "Option B as inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 3 — Option B (as inserted by A14)",
+    "sort_order": 203,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/606",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Revenue raising to include £20m. from the corporate sector, a 50% increase in TRP, paid parking, service reductions totalling up £16m.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop04_opt_c_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 4",
+    "amendment_ref": "Option C as inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 4 — Option C (as inserted by A14)",
+    "sort_order": 204,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/609",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Savings of up to £35m. a year by service reductions and raising an extra £20m. from the corporate sector",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop05_opt_d_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 5",
+    "amendment_ref": "Option D as inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 5 — Option D (as inserted by A14)",
+    "sort_order": 205,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/605",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Not to introduce a GST, but reduce spending and introduce other revenue raising including through TRP and increasing the current personal tax caps.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop05A_ins_a16",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 5A",
+    "amendment_ref": "As inserted by Amdt 16",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 5A (as inserted by Amdt 16)",
+    "sort_order": 206,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/620",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "To agree that the challenge of agreeing a single package to resolve the forecast £85M medium term shortfall has proven too politically challenging so needs to be split into two tranches, with the first approved by this Assembly.",
+    "inserted_by_item_key": "p2022_112_a16"
+  },
+  {
+    "item_key": "p2022_112_prop06_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 6",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 6 (as inserted by Amdt 14)",
+    "sort_order": 207,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/607",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Review how much has already planned to be spent on major infrastructure projects and consider more borrowing for them.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop07_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 7",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 7 (as inserted by Amdt 14)",
+    "sort_order": 208,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/611",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Set up a committee to review how savings could be made to deliver up to £16m. over the next five years.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop08_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 8",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 8 (as inserted by Amdt 14)",
+    "sort_order": 209,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/608",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Direct P&R tp identify a longer-term vision for the island and report back by the end of 2024.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop09_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 9",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 9 (as inserted by Amdt 14)",
+    "sort_order": 210,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/610",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Set up a sub-group to investigate changes to the tax system.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop10_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 10",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 10 (as inserted by Amdt 14)",
+    "sort_order": 211,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/612",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Invetigate how much money is generated from transport and consider fuel duty, distance charging, paid parking and road tax.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop11_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 11",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 11 (as inserted by Amdt 14)",
+    "sort_order": 212,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/613",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Look at raising £2m. a year through a visitors' levy.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop12_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 12",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 12 (as inserted by Amdt 14)",
+    "sort_order": 213,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/614",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Produce an estimate of the structural deficit in every Budget.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop13_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 13",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 13 (as inserted by Amdt 14)",
+    "sort_order": 214,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/615",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Report back by September 2024 on changes to the public sector pension scheme and staff terms and conditions.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop14_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 14",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 14 (as inserted by Amdt 14)",
+    "sort_order": 215,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/616",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Review a law to make it easier to commission services, bringing back proposals by the end of 2023.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop14A_ins_a08",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 14A",
+    "amendment_ref": "As inserted by Amdt 8",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 14A (as inserted by Amdt 8)",
+    "sort_order": 216,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/623",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Increase P&R's delegated authority for approval of capital spending to £5m.",
+    "inserted_by_item_key": "p2022_112_a08"
+  },
+  {
+    "item_key": "p2022_112_prop14B_ins_a11",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 14B",
+    "amendment_ref": "As inserted by Amdt 11",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 14B (as inserted by Amdt 11)",
+    "sort_order": 217,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/624",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Report back by January 2024 with measures to get people who could be working but choose not to back into employment.",
+    "inserted_by_item_key": "p2022_112_a11"
+  },
+  {
+    "item_key": "p2022_112_prop15_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 15",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 15 (as inserted by Amdt 14)",
+    "sort_order": 218,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/617",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "To use the Budget reserve to pay for all the reviews being called for.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop16_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 16",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 16 (as inserted by Amdt 14)",
+    "sort_order": 219,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/618",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "P&R to report back by June 2026 on all the actions taken and the impact they have had on the financial position and what should follow.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2022_112_prop17_ins_a14",
+    "segments": [
+      {
+        "meeting_key": "m_2023_02_17",
+        "meeting_date": "2023-02-17",
+        "start_page": 11,
+        "end_page": 98,
+        "start_speech_id": "sp_m_2023_02_17_00003",
+        "end_speech_id": "sp_m_2023_02_17_00118",
+        "trigger": "general_debate_amended_propositions",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2022_112_main",
+    "agenda_item_label": "The Tax Review: Phase 2",
+    "proposition_ref": "P.2022/112 Proposition 17",
+    "amendment_ref": "As inserted by Amdt 14",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 17 (as inserted by Amdt 14)",
+    "sort_order": 220,
+    "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/619",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Prepare any legislation necessary because of the States' decisions in this debate.",
+    "inserted_by_item_key": "p2022_112_a14"
+  },
+  {
+    "item_key": "p2023_101_main",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_17",
+        "meeting_date": "2023-10-17",
+        "start_page": 23,
+        "end_page": 28,
+        "start_speech_id": "sp_m_2023_10_17_00024",
+        "end_speech_id": "sp_m_2023_10_17_00024",
+        "trigger": "heading",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2023_10_20",
+        "meeting_date": "2023-10-20",
+        "start_page": 88,
+        "end_page": 94,
+        "start_speech_id": "sp_m_2023_10_20_00177",
+        "end_speech_id": "sp_m_2023_10_20_00197",
+        "trigger": "bailiff_resume",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": null,
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "",
+    "phase_type": "main",
+    "phase_label": "Main debate",
+    "sort_order": 0,
+    "detail_url": "https://parliament.gg/parliamentary-business/meetings/meeting-17-10-2023",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Overall debate on the Funding & Investment plan which scrapped the tax and benefits package agreed in February 2023 and sent P&R away to further review options for addressing the deficit and report back by September 2026."
+  },
+  {
+    "item_key": "p2023_101_a01",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_17",
+        "meeting_date": "2023-10-17",
+        "start_page": 83,
+        "end_page": 89,
+        "start_speech_id": "sp_m_2023_10_17_00092",
+        "end_speech_id": "sp_m_2023_10_17_00107",
+        "trigger": "heading",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2023_10_18",
+        "meeting_date": "2023-10-18",
+        "start_page": 5,
+        "end_page": 9,
+        "start_speech_id": "sp_m_2023_10_18_00001",
+        "end_speech_id": "sp_m_2023_10_18_00013",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 1",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 1",
+    "sort_order": 1,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%201",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Roffey/Matthews to unbundle the original P&R package to allow individual votes on different issues."
+  },
+  {
+    "item_key": "p2023_101_a02",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_19",
+        "meeting_date": "2023-10-19",
+        "start_page": 54,
+        "end_page": 71,
+        "start_speech_id": "sp_m_2023_10_19_00074",
+        "end_speech_id": "sp_m_2023_10_19_00118",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 2",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 2",
+    "sort_order": 2,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%202",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Roffey/de Sausmarez to borrow £150m. to lend to an affordable housing builder."
+  },
+  {
+    "item_key": "p2023_101_a03",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_20",
+        "meeting_date": "2023-10-20",
+        "start_page": 36,
+        "end_page": 45,
+        "start_speech_id": "sp_m_2023_10_20_00080",
+        "end_speech_id": "sp_m_2023_10_20_00102",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 3",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 3",
+    "sort_order": 3,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%203",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by St Pier/Vermeuelen to establish a special committee to carry out a root and branch review of the tax system."
+  },
+  {
+    "item_key": "p2023_101_a04",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_17",
+        "meeting_date": "2023-10-17",
+        "start_page": 30,
+        "end_page": 81,
+        "start_speech_id": "sp_m_2023_10_17_00025",
+        "end_speech_id": "sp_m_2023_10_17_00090",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 4",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 4",
+    "sort_order": 4,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%204",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Soulsby/St Pier to continue a phased approach to tax reform."
+  },
+  {
+    "item_key": "p2023_101_a05",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_19",
+        "meeting_date": "2023-10-19",
+        "start_page": 29,
+        "end_page": 52,
+        "start_speech_id": "sp_m_2023_10_19_00041",
+        "end_speech_id": "sp_m_2023_10_19_00071",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 5",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 5",
+    "sort_order": 5,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%205",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Kazantseva-Miller/de Sausmarez to review the level of spending on major projects and how it compares to GDP."
+  },
+  {
+    "item_key": "p2023_101_a06",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_18",
+        "meeting_date": "2023-10-18",
+        "start_page": 11,
+        "end_page": 43,
+        "start_speech_id": "sp_m_2023_10_18_00015",
+        "end_speech_id": "sp_m_2023_10_18_00071",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 6",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 6",
+    "sort_order": 6,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%206",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Brouard/Bury so that under any scenario there can be a vote on agreeing that hospital modernisation continues."
+  },
+  {
+    "item_key": "p2023_101_a07",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_18",
+        "meeting_date": "2023-10-18",
+        "start_page": 45,
+        "end_page": 73,
+        "start_speech_id": "sp_m_2023_10_18_00073",
+        "end_speech_id": "sp_m_2023_10_18_00132",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 7",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 7",
+    "sort_order": 7,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%207",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Parkinson/McKenna to implement a new territorial system of corporate income tax to raise £30m. a year."
+  },
+  {
+    "item_key": "p2023_101_a08",
+    "segments": [],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 8",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 8",
+    "sort_order": 8,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%208",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Matthews/Roffey."
+  },
+  {
+    "item_key": "p2023_101_a09",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_18",
+        "meeting_date": "2023-10-18",
+        "start_page": 74,
+        "end_page": 94,
+        "start_speech_id": "sp_m_2023_10_18_00134",
+        "end_speech_id": "sp_m_2023_10_18_00175",
+        "trigger": "heading",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2023_10_19",
+        "meeting_date": "2023-10-19",
+        "start_page": 5,
+        "end_page": 28,
+        "start_speech_id": "sp_m_2023_10_19_00001",
+        "end_speech_id": "sp_m_2023_10_19_00040",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 9",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 9",
+    "sort_order": 9,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%209",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Trott/Gollop to increase personal income tax to 22% in 2024 and then up to 23% in 2025 should other revenue raising measures be defeated."
+  },
+  {
+    "item_key": "p2023_101_a10",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_19",
+        "meeting_date": "2023-10-19",
+        "start_page": 74,
+        "end_page": 93,
+        "start_speech_id": "sp_m_2023_10_19_00122",
+        "end_speech_id": "sp_m_2023_10_19_00151",
+        "trigger": "heading",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2023_10_20",
+        "meeting_date": "2023-10-20",
+        "start_page": 5,
+        "end_page": 35,
+        "start_speech_id": "sp_m_2023_10_20_00001",
+        "end_speech_id": "sp_m_2023_10_20_00076",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 10",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 10",
+    "sort_order": 10,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%2010",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Matthews/Roffey to stop Education's plans to build a post-16 campus at Les Ozouets."
+  },
+  {
+    "item_key": "p2023_101_a11",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_20",
+        "meeting_date": "2023-10-20",
+        "start_page": 47,
+        "end_page": 65,
+        "start_speech_id": "sp_m_2023_10_20_00105",
+        "end_speech_id": "sp_m_2023_10_20_00153",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 11",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 11",
+    "sort_order": 11,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%2011",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Taylor/St Pier so that more details of the proposed £35m. investment in regeneration of the Bridge come back to the States."
+  },
+  {
+    "item_key": "p2023_101_a12",
+    "segments": [
+      {
+        "meeting_key": "m_2023_10_19",
+        "meeting_date": "2023-10-19",
+        "start_page": 53,
+        "end_page": 53,
+        "start_speech_id": "sp_m_2023_10_19_00072",
+        "end_speech_id": "sp_m_2023_10_19_00073",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2023_101_main",
+    "agenda_item_label": "Funding & Investment Plan",
+    "proposition_ref": "P.2023/101",
+    "amendment_ref": "Amendment 12",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 12",
+    "sort_order": 12,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2023-101%20Amdt%2012",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Helyar/Ferbrache as a backstop to limit spending to only criticial investment should not new revenue raising measures be approved."
+  },
+  {
+    "item_key": "p2024_91_main",
+    "segments": [
+      {
+        "meeting_key": "m_2024_11_05",
+        "meeting_date": "2024-11-05",
+        "start_page": 14,
+        "end_page": 17,
+        "start_speech_id": "sp_m_2024_11_05_00001",
+        "end_speech_id": "sp_m_2024_11_05_00001",
+        "trigger": "heading",
+        "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2024_11_08",
+        "meeting_date": "2024-11-08",
+        "start_page": 5,
+        "end_page": 94,
+        "start_speech_id": "sp_m_2024_11_08_00001",
+        "end_speech_id": "sp_m_2024_11_08_00147",
+        "trigger": "bailiff_resume",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": null,
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "",
+    "phase_type": "main",
+    "phase_label": "Main debate",
+    "sort_order": 0,
+    "detail_url": "https://parliament.gg/parliamentary-business/meetings/meeting-05-11-2024",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "P&R proposed increasing personal income tax to 22%, but that was rejected in favour of a package of measures including GST being introduced in time for 2027."
+  },
+  {
+    "item_key": "p2024_91_a01",
+    "segments": [],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 1",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 1",
+    "sort_order": 1,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%201",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Roffey/Ferbrache to get the original 2023 GST package back on the agenda."
+  },
+  {
+    "item_key": "p2024_91_a02",
+    "segments": [],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 2",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 2",
+    "sort_order": 2,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%202",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Roffey/Ferbrache to get the original 2023 GST package back on the agend."
+  },
+  {
+    "item_key": "p2024_91_a03",
+    "segments": [
+      {
+        "meeting_key": "m_2024_11_05",
+        "meeting_date": "2024-11-05",
+        "start_page": 49,
+        "end_page": 90,
+        "start_speech_id": "sp_m_2024_11_05_00046",
+        "end_speech_id": "sp_m_2024_11_05_00120",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 3",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 3",
+    "sort_order": 3,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%203",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Helyar/Matthews to hold the Budget at 2024 levels (£39.7m. less than proposed), delete vacant roles and employ new staff on static rates of pay."
+  },
+  {
+    "item_key": "p2024_91_a05",
+    "segments": [
+      {
+        "meeting_key": "m_2024_11_05",
+        "meeting_date": "2024-11-05",
+        "start_page": 18,
+        "end_page": 47,
+        "start_speech_id": "sp_m_2024_11_05_00003",
+        "end_speech_id": "sp_m_2024_11_05_00045",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 5",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 5",
+    "sort_order": 5,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%205",
+    "outcome": {
+      "status": "defeated",
+      "label": "Defeated"
+    },
+    "notes": "Proposed by Parkinson/McKenna in support of introducing a territorital system of corporate tax from 2026."
+  },
+  {
+    "item_key": "p2024_91_a06",
+    "segments": [],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 6",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 6",
+    "sort_order": 6,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%206",
+    "outcome": {
+      "status": "withdrawn",
+      "label": "Withdrawn"
+    },
+    "notes": "Proposed by Prow/Inder for a two thirds majority to be needed to increase GST."
+  },
+  {
+    "item_key": "p2024_91_a08",
+    "segments": [
+      {
+        "meeting_key": "m_2024_11_07",
+        "meeting_date": "2024-11-07",
+        "start_page": 45,
+        "end_page": 46,
+        "start_speech_id": "sp_m_2024_11_07_00087",
+        "end_speech_id": "sp_m_2024_11_07_00091",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 8",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 8",
+    "sort_order": 8,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%208",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Burford/de Sausmarez so proposals to address the deficit would have to be back to the States by March 2026, not September."
+  },
+  {
+    "item_key": "p2024_91_a22",
+    "segments": [
+      {
+        "meeting_key": "m_2024_11_06",
+        "meeting_date": "2024-11-06",
+        "start_page": 44,
+        "end_page": 46,
+        "start_speech_id": "sp_m_2024_11_06_00085",
+        "end_speech_id": "sp_m_2024_11_06_00088",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 22",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 22",
+    "sort_order": 22,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%2022",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Trott/Soulsby so that both short term income tax rises and planning for a GST to be in place by 2027 are options at the same time."
+  },
+  {
+    "item_key": "p2024_91_a24",
+    "segments": [
+      {
+        "meeting_key": "m_2024_11_07",
+        "meeting_date": "2024-11-07",
+        "start_page": 75,
+        "end_page": 78,
+        "start_speech_id": "sp_m_2024_11_07_00170",
+        "end_speech_id": "sp_m_2024_11_07_00175",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 24",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 24",
+    "sort_order": 24,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%2024",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Prow/Inder to ensure an examination of zero rating food under a GST regime."
+  },
+  {
+    "item_key": "p2024_91_a25",
+    "segments": [
+      {
+        "meeting_key": "m_2024_11_07",
+        "meeting_date": "2024-11-07",
+        "start_page": 79,
+        "end_page": 100,
+        "start_speech_id": "sp_m_2024_11_07_00177",
+        "end_speech_id": "sp_m_2024_11_07_00224",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2024_91_main",
+    "agenda_item_label": "Annual Budget for 2025",
+    "proposition_ref": "P.2024/91",
+    "amendment_ref": "Amendment 25",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 25",
+    "sort_order": 25,
+    "detail_url": "https://parliament.gg/parliamentary-business/assets/propositions/p2024-91%20Amdt%2025",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "Proposed by Trott/Soulsby to consult on changes to employee terms and condition changes rather than introduce them as proposed in amendment 3."
+  }
+]

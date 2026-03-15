@@ -1,0 +1,23 @@
+[
+  {
+    "meeting_key": "m_2023_02_15",
+    "meeting_date": "2023-02-15",
+    "meeting_label": "States Meeting — 15 February 2023",
+    "meeting_url": "https://parliament.gg/parliamentary-business/meetings/meeting-15-02-2023",
+    "notes": "Includes the main debate on the Tax Review: Phase 2 (P.2022/112) and votes on proposed changes (amendments)."
+  },
+  {
+    "meeting_key": "m_2023_10_17",
+    "meeting_date": "2023-10-17",
+    "meeting_label": "States Meeting — 17 October 2023 (Funding & Investment Plan)",
+    "meeting_url": "https://parliament.gg/parliamentary-business/meetings/meeting-17-10-2023",
+    "notes": "Includes the main debate on the Funding & Investment Plan (P.2023/101) and related proposed changes."
+  },
+  {
+    "meeting_key": "m_2024_11_05",
+    "meeting_date": "2024-11-05",
+    "meeting_label": "States Meeting — 5 November 2024 (Budget 2025)",
+    "meeting_url": "https://parliament.gg/parliamentary-business/meetings/meeting-05-11-2024",
+    "notes": "Includes the main Budget 2025 debate (P.2024/91) and many amendments. This focuses on the tax/deficit-related parts."
+  }
+]

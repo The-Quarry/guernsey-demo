@@ -1,0 +1,273 @@
+[
+  {
+    "person_id": "lindsay_de_sausmarez",
+    "name": "Lindsay de Sausmarez",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["de Sausmarez", "De Sausmarez", "Lindsay De Sausmarez"]
+  },
+  {
+    "person_id": "yvonne_burford",
+    "name": "Yvonne Burford",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Burford", "Y. Burford"]
+  },
+  {
+    "person_id": "charles_parkinson",
+    "name": "Charles Parkinson",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Parkinson", "C. Parkinson"]
+  },
+  {
+    "person_id": "steve_falla",
+    "name": "Steve Falla",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Falla", "S. Falla"]
+  },
+  {
+    "person_id": "paul_montague",
+    "name": "Paul Montague",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Montague", "P. Montague"]
+  },
+  {
+    "person_id": "sasha_kazantseva_miller",
+    "name": "Sasha Kazantseva-Miller",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Kazantseva-Miller",
+      "Kazantseva Miller",
+      "Sasha Kazantseva Miller",
+      "S. Kazantseva-Miller"
+    ]
+  },
+  {
+    "person_id": "gavin_st_pier",
+    "name": "Gavin St Pier",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["St Pier", "St. Pier", "G. St Pier", "G. St. Pier"]
+  },
+  {
+    "person_id": "tina_bury",
+    "name": "Tina Bury",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Bury", "T. Bury"]
+  },
+  {
+    "person_id": "chris_blin",
+    "name": "Chris Blin",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Blin", "C. Blin"]
+  },
+  {
+    "person_id": "aidan_matthews",
+    "name": "Aidan Matthews",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Matthews", "A. Matthews"]
+  },
+  {
+    "person_id": "marc_leadbeater",
+    "name": "Marc Leadbeater",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Leadbeater", "M. Leadbeater"]
+  },
+  {
+    "person_id": "andy_cameron",
+    "name": "Andy Cameron",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Cameron", "A. Cameron"]
+  },
+  {
+    "person_id": "adrian_gabriel",
+    "name": "Adrian Gabriel",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Gabriel", "A. Gabriel"]
+  },
+  {
+    "person_id": "liam_mckenna",
+    "name": "Liam McKenna",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["McKenna", "Mckenna", "L. McKenna"]
+  },
+  {
+    "person_id": "mark_helyar",
+    "name": "Mark Helyar",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Helyar", "M. Helyar"]
+  },
+  {
+    "person_id": "john_gollop",
+    "name": "John Gollop",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Gollop", "J. Gollop"]
+  },
+  {
+    "person_id": "simon_vermeulen",
+    "name": "Simon Vermeulen",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Vermeulen", "Vermeule", "S. Vermeulen"]
+  },
+  {
+    "person_id": "neil_inder",
+    "name": "Neil Inder",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": ["Inder", "N. Inder"]
+  },
+  {
+  "person_id": "andrea_dudley_owen",
+  "name": "Andrea Dudley-Owen",
+  "type": "deputy",
+  "is_incumbent": false,
+  "aliases": ["Dudley-Owen", "A. Dudley-Owen"]
+  },
+  {
+    "person_id": "heidi_soulsby",
+    "name": "Heidi Soulsby",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Soulsby", "H. Soulsby"]
+  },
+  {
+    "person_id": "peter_ferbrache",
+    "name": "Peter Ferbrache",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Ferbrache", "P. Ferbrache"]
+  },
+  {
+    "person_id": "peter_roffey",
+    "name": "Peter Roffey",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Roffey", "P. Roffey"]
+  },
+  {
+    "person_id": "lyndon_trott",
+    "name": "Lyndon Trott",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Trott", "L. Trott"]
+  },
+  {
+    "person_id": "sue_aldwell",
+    "name": "Sue Aldwell",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Aldwell", "S. Aldwell"]
+  },
+  {
+    "person_id": "al_brouard",
+    "name": "Al Brouard",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Brouard", "A. Brouard"]
+  },
+  {
+    "person_id": "sam_haskins",
+    "name": "Sam Haskins",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Haskins", "S. Haskins"]
+  },
+  {
+    "person_id": "rob_prow",
+    "name": "Rob Prow",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Prow", "R. Prow"]
+  },
+  {
+    "person_id": "victoria_oliver",
+    "name": "Victoria Oliver",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Oliver", "V. Oliver"]
+  },
+  {
+    "person_id": "john_dyke",
+    "name": "John Dyke",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Dyke", "J. Dyke"]
+  },
+  {
+    "person_id": "andrew_taylor",
+    "name": "Andrew Taylor",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Taylor", "A. Taylor"]
+  },
+  {
+    "person_id": "david_mahoney",
+    "name": "David Mahoney",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Mahoney", "D. Mahoney"]
+  },
+  {
+    "person_id": "nick_moakes",
+    "name": "Nick Moakes",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Moakes", "N. Moakes"]
+  },
+  {
+    "person_id": "simon_fairclough",
+    "name": "Simon Fairclough",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Fairclough", "S. Fairclough"]
+  },
+  {
+    "person_id": "david_de_lisle",
+    "name": "David De Lisle",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["De Lisle","de Lisle", "D. De Lisle"]
+  },
+  {
+    "person_id": "lester_queripel",
+    "name": "Lester Queripel",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Queripel", "L. Queripel"]
+  },
+  {
+    "person_id": "bob_murray",
+    "name": "Bob Murray",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Murray", "B. Murray"]
+  },
+  {
+    "person_id": "chris_le_tissier",
+    "name": "Chris Le Tissier",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Le Tissier", "C. Le Tissier"]
+  },
+  {
+    "person_id": "carl_meerveld",
+    "name": "Carl Meerveld",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Meerveld", "C. Meerveld"]
+  }
+]
