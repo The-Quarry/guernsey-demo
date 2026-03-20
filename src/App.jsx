@@ -186,7 +186,7 @@ function ItemCard({ it, meeting, isSelected, onSelect, indent = false, vote }) {
 
         {description ? (
           <div
-            className={`mt-2 text-base leading-relaxed text-slate-700 ${
+            className={`mt-2 text-base leading-relaxed text-slate-800 ${
               isSelected ? "" : "line-clamp-4 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-6 after:bg-gradient-to-t after:from-white"
             }`}
           >
@@ -620,7 +620,7 @@ export default function App() {
   const [tab, setTab] = useState("debates");
   const [q, setQ] = useState(""); // IMPORTANT: when deputy selected, this becomes phrase search
   const [personFilter, setPersonFilter] = useState("all");
-  const [selectedItemKey, setSelectedItemKey] = useState("p2022_112_main");
+  const [selectedItemKey, setSelectedItemKey] = useState("p2024_91_main");
   const [evidenceQ, setEvidenceQ] = useState(""); // right-panel search (used only when personFilter === "all")
   const hansardPanelRef = React.useRef(null);
   const [openParents, setOpenParents] = useState({});
@@ -759,7 +759,10 @@ export default function App() {
           source_url: sp.source_url,
           item_key: speechIdToItemKey.get(sp.speech_id) || null,
         }))
-      );
+      ).filter((h) => {
+        const name = `${h.person_name || ""} ${h.speaker_label || ""}`.toLowerCase();
+        return !name.includes("bailiff");
+      });
     }, [speechIdToItemKey]);
 
     const HANSARD = useMemo(
@@ -1009,6 +1012,7 @@ const votesByPerson = useMemo(() => {
   }, [filteredItems]);
 
   const [introStep, setIntroStep] = useState(0);
+  const [showAllHighlights, setShowAllHighlights] = useState(false);
 
   const kpis = useMemo(() => {
     const totalItems = DATA.items.length;
@@ -1196,8 +1200,9 @@ const votesByPerson = useMemo(() => {
 }, [selectedItemKey]);
 
   React.useEffect(() => {
-    setActiveSegmentIdx(0);
-  }, [selectedItemKey]);
+  setActiveSegmentIdx(0);
+  setShowAllHighlights(false);
+}, [selectedItemKey]);
 
   React.useEffect(() => {
     const itemKeys = new Set((DATA.items || []).map((it) => it.item_key));
@@ -1339,17 +1344,10 @@ const votesByPerson = useMemo(() => {
                   <div className="max-h-[calc(100vh-14rem)] overflow-y-auto pr-2 space-y-3">
                     {[
                       {
-                        label: "Jan/Feb 2023",
+                        label: "November 2024",
                         groups: groupedItems.filter(({ main }) =>
                           (main.segments || []).some((s) =>
-                            [
-                              "m_2023_01_25",
-                              "m_2023_01_26",
-                              "m_2023_01_27",
-                              "m_2023_02_15",
-                              "m_2023_02_16",
-                              "m_2023_02_17",
-                            ].includes(s.meeting_key)
+                            ["m_2024_11_05", "m_2024_11_06", "m_2024_11_07", "m_2024_11_08"].includes(s.meeting_key)
                           )
                         ),
                       },
@@ -1362,10 +1360,17 @@ const votesByPerson = useMemo(() => {
                         ),
                       },
                       {
-                        label: "November 2024",
+                        label: "Jan/Feb 2023",
                         groups: groupedItems.filter(({ main }) =>
                           (main.segments || []).some((s) =>
-                            ["m_2024_11_05", "m_2024_11_06", "m_2024_11_07", "m_2024_11_08"].includes(s.meeting_key)
+                            [
+                              "m_2023_01_25",
+                              "m_2023_01_26",
+                              "m_2023_01_27",
+                              "m_2023_02_15",
+                              "m_2023_02_16",
+                              "m_2023_02_17",
+                            ].includes(s.meeting_key)
                           )
                         ),
                       },
@@ -1758,7 +1763,7 @@ const votesByPerson = useMemo(() => {
                               const p = people.find(x => x.person_id === personFilter);
                               return p ? `${p.name} — what they said and how they voted` : "What was said and how they voted";
                             })()
-                          : "What was said and how they voted"
+                          : "Speeches & votes"
                       }
                       right={
                         <div className="flex flex-wrap items-center justify-end gap-2 max-w-full">
@@ -1832,7 +1837,7 @@ const votesByPerson = useMemo(() => {
                                 : "border-slate-200 bg-slate-50"
                             }`}
                           >
-                            <div className="text-xs font-semibold text-slate-900">Selected topic</div>
+                            
 
                             <div className="mt-1 text-sm text-slate-800">
                               {selectedItem ? (
@@ -1985,7 +1990,7 @@ const votesByPerson = useMemo(() => {
                       <div className="rounded-2xl border border-slate-200 bg-white p-3">
                         <div className="flex items-center justify-between">
                           <div>
-                            <div className="text-xs font-semibold text-slate-900">Selected highlights</div>
+                            <div className="text-xs font-semibold text-slate-900">Highlights</div>
                             <div className="mt-1 text-xs text-slate-500">
                               These are curated excerpts. Use “Read full speech” or "View in official Hansard" for more context.
                             </div>
@@ -1994,8 +1999,17 @@ const votesByPerson = useMemo(() => {
                         </div>
 
                         {panelHighlights.length > 0 ? (
-                          <div className="mt-3 max-h-[60vh] overflow-y-auto pr-2 space-y-2">
-                            {panelHighlights.map((h) => {
+                          <div className="mt-3 space-y-2">
+                          <div className="max-h-[60vh] overflow-y-auto pr-2 space-y-2">
+                            {(() => {
+                              const seen = new Set();
+                              const defaultHighlights = panelHighlights.filter((h) => {
+                                const key = (h.person_name || h.speaker_label || "").toLowerCase();
+                                if (seen.has(key)) return false;
+                                seen.add(key);
+                                return true;
+                              });
+                              return (showAllHighlights ? panelHighlights : defaultHighlights).map((h) => {
                               const it = DATA.items.find((x) => x.item_key === h.item_key);
                               const mtg = DATA.meetings.find((m) => m.meeting_key === it?.meeting_key);
 
@@ -2017,11 +2031,8 @@ const votesByPerson = useMemo(() => {
                                 >
                                   <div className="flex flex-wrap items-center gap-2">
                                     <span className="text-sm font-semibold text-slate-900">{h.person_name}</span>
-                                    <span className="text-xs text-slate-500">{h.meeting_date}</span>
+                                    <span className="text-sm text-slate-500">{h.meeting_date}</span>
                                     <Pill>Highlight</Pill>
-                                    {tags.slice(0, 3).map((t) => (
-                                      <Pill key={t} tone="info">{t}</Pill>
-                                    ))}
                                   </div>
 
                                   {evidenceMode === "person" ? (
@@ -2030,7 +2041,7 @@ const votesByPerson = useMemo(() => {
                                     </div>
                                   ) : null}
 
-                                  <div className="mt-3 border-l-2 border-slate-200 pl-3 text-base italic leading-relaxed text-slate-700">
+                                  <div className="mt-3 border-l-2 border-slate-200 pl-3 text-lg italic leading-loose text-slate-900">
                                     “{h.quote || ""}”
                                   </div>
 
@@ -2053,7 +2064,35 @@ const votesByPerson = useMemo(() => {
                                   ) : null}
                                 </div>
                               );
-                            })}
+                           // REPLACE WITH:
+                              });
+                            })()}
+                          </div>
+
+                          {(() => {
+                            const seen = new Set();
+                            const defaultCount = panelHighlights.filter((h) => {
+                              const key = (h.person_name || h.speaker_label || "").toLowerCase();
+                              if (seen.has(key)) return false;
+                              seen.add(key);
+                              return true;
+                            }).length;
+                            return !showAllHighlights && panelHighlights.length > defaultCount ? (
+                              <button
+                                onClick={() => setShowAllHighlights(true)}
+                                className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100"
+                              >
+                                Show all {panelHighlights.length} highlights
+                              </button>
+                            ) : showAllHighlights ? (
+                              <button
+                                onClick={() => setShowAllHighlights(false)}
+                                className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100"
+                              >
+                                Show fewer
+                              </button>
+                            ) : null;
+                          })()}
                           </div>
                         ) : (
                           <div className="mt-3 text-sm text-slate-600">
