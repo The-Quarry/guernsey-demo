@@ -1008,6 +1008,8 @@ const votesByPerson = useMemo(() => {
       });
   }, [filteredItems]);
 
+  const [introStep, setIntroStep] = useState(0);
+
   const kpis = useMemo(() => {
     const totalItems = DATA.items.length;
     const totalMeetings = DATA.meetings.length;
@@ -1282,7 +1284,7 @@ const votesByPerson = useMemo(() => {
                           What was approved
                         </button>
                         <button
-                          onClick={() => setShowIntro(true)}
+                          onClick={() => { setShowIntro(true); setIntroStep(0); }}
                           className="rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
                         >
                           How to use this site
@@ -2070,94 +2072,157 @@ const votesByPerson = useMemo(() => {
                         {showIntro ? (
                           <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-3 sm:p-6 overflow-y-auto">
                             <div className="w-full max-w-2xl min-h-0 flex flex-col rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
-                              <div className="border-b px-5 py-4 sm:px-6">
-                                <h2 className="text-xl font-semibold text-slate-900">
-                                  Welcome to The Quarry&apos;s Policy Tracker
-                                </h2>
-                                <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                                  This tracker brings together States debates, recorded votes and speaches
-                                  so you can follow how Guernsey&apos;s arguments around GST, corporate tax, social security and
-                                  savings evolved over time.
-                                </p>
+                              
+                              {/* Progress bar */}
+                              <div className="flex gap-1.5 px-5 pt-4">
+                                {[0,1,2,3].map((i) => (
+                                  <div
+                                    key={i}
+                                    className={`h-1.5 flex-1 rounded-full transition-all ${
+                                      i <= introStep ? "bg-slate-900" : "bg-slate-200"
+                                    }`}
+                                  />
+                                ))}
                               </div>
 
-                              <div className="flex-1 overflow-y-auto px-5 py-5 sm:px-6 space-y-4 text-sm leading-relaxed text-slate-700">
-                                <div>
-                                  <div className="font-semibold text-slate-900">What these debates were</div>
-                                  <div className="mt-1">
-                                    The debates collected here look at how the States tried to respond to Guernsey&apos;s
-                                    long-term funding pressures. Members debated whether the island should raise more
-                                    revenue through measures such as GST, change how businesses are taxed, make savings,
-                                    or use a different mix of reforms.
-                                  </div>
-                                </div>
+                              {/* Content */}
+                              <div className="flex-1 px-5 py-5 sm:px-6">
 
-                                <div>
-                                  <div className="font-semibold text-slate-900">The timeline covered here</div>
-                                  <div className="mt-1">
-                                    This is not one single debate. It brings together three linked debates across
-                                    different years: the major tax debate in early 2023, the Funding & Investment Plan in Autumn that year and the Budget 2025 debate
-                                    in late 2024. Members often voted
-                                    first on amendments, then again on the final propositions as amended, which means a
-                                    measure could be supported at one stage but rejected later.
-                                  </div>
-                                </div>
+                                {introStep === 0 && (
+                                  <div>
+                                    <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">The story</div>
+                                    <h2 className="text-xl font-bold text-slate-900">Guernsey faced a funding gap — and struggled to agree how to fill it</h2>
+                                    <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                                      The island needed tens of millions of pounds more each year to fund schools, a new hospital and other infrastructure. The big question was how to raise it — through a new sales tax (GST), changes to how businesses are taxed, spending cuts, or some combination.
+                                    </p>
 
-                                <div>
-                                  <div className="font-semibold text-slate-900">How to use the site</div>
-                                  <div className="mt-1">
-                                    Use the left-hand panel to choose the part of the debate you want to look at. Main
-                                    debate cards show the broader section being discussed, while amendments and final
-                                    propositions show the more specific decisions taken within it.
+                                    {/* Timeline */}
+                                    <div className="mt-5 relative">
+                                      <div className="absolute left-3 top-2 bottom-2 w-0.5 bg-slate-200" />
+                                      {[
+                                        { date: "Jan–Feb 2023", label: "The Tax Review", desc: "Policy & Resources proposed a GST package. The States rejected all major options." },
+                                        { date: "Oct 2023", label: "Funding & Investment Plan", desc: "A second attempt to agree a long-term funding strategy. P&R ordered to report back with fresh answers." },
+                                        { date: "Nov 2024", label: "Budget 2025", desc: "The debate continued into the annual budget, with more proposals and votes that set the course for a GST package to come forward in 2026." },
+                                      ].map((item, i) => (
+                                        <div key={i} className="relative pl-8 pb-4 last:pb-0">
+                                          <div className="absolute left-1.5 top-1.5 h-3 w-3 rounded-full bg-slate-900 ring-2 ring-white" />
+                                          <div className="text-xs font-bold text-slate-500">{item.date}</div>
+                                          <div className="text-sm font-semibold text-slate-900">{item.label}</div>
+                                          <div className="text-sm text-slate-600">{item.desc}</div>
+                                        </div>
+                                      ))}
+                                    </div>
                                   </div>
-                                </div>
+                                )}
 
-                                <div>
-                                  <div className="font-semibold text-slate-900">What the right-hand panel shows</div>
-                                  <div className="mt-1">
-                                    The main panel shows the selected topic, the vote where available, curated highlights,
-                                    Hansard matches, and links back to the official Hansard and voting records so you can
-                                    verify the material yourself. You can also pick a single States member to see what they were doing.
+                                {introStep === 1 && (
+                                  <div>
+                                    <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">How debates work</div>
+                                    <h2 className="text-xl font-bold text-slate-900">Debates happen in stages — and a vote at one stage doesn't end it</h2>
+                                    <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                                      Each debate starts with a main proposition. Deputies can then propose amendments — changes to the original proposal. Each amendment is debated and voted on separately. Finally, the proposition as amended goes to a final vote.
+                                    </p>
+                                    <div className="mt-4 space-y-2">
+                                      {[
+                                        { icon: "📋", label: "Main debate", desc: "The original proposal is introduced and debated." },
+                                        { icon: "✏️", label: "Amendments", desc: "Deputies propose changes. Each is voted on — it can pass or fail." },
+                                        { icon: "🗳️", label: "Final vote", desc: "The proposition, with any accepted amendments, goes to a final vote." },
+                                      ].map((item) => (
+                                        <div key={item.label} className="flex gap-3 rounded-xl bg-slate-50 p-3">
+                                          <span className="text-xl">{item.icon}</span>
+                                          <div>
+                                            <div className="text-sm font-semibold text-slate-900">{item.label}</div>
+                                            <div className="text-sm text-slate-600">{item.desc}</div>
+                                          </div>
+                                        </div>
+                                      ))}
+                                    </div>
                                   </div>
-                                </div>
+                                )}
 
-                                <div>
-                                  <div className="font-semibold text-slate-900">The main views</div>
-                                  <div className="mt-1">
-                                    The <strong>Debates</strong> button lets you explore speeches, votes and propositions in context.
-                                    <strong> Related coverage</strong> links to The Quarry&apos;s reporting.
-                                    <strong> What was approved</strong> gives a quick summary of what actually passed.
+                                {introStep === 2 && (
+                                  <div>
+                                    <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">Using the tracker</div>
+                                    <h2 className="text-xl font-bold text-slate-900">Pick a debate on the left, explore what was said on the right</h2>
+                                    <div className="mt-4 space-y-2">
+                                      {[
+                                        { icon: "👈", label: "Left panel", desc: "Choose which debate or amendment to look at. Topics are grouped by meeting date." },
+                                        { icon: "📰", label: "Right panel", desc: "See the vote result, curated highlights from speeches, and links to the official Hansard." },
+                                        { icon: "🔍", label: "Search", desc: "Use the search boxes to find specific topics or keywords in the debate text." },
+                                        { icon: "👤", label: "Deputy filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
+                                      ].map((item) => (
+                                        <div key={item.label} className="flex gap-3 rounded-xl bg-slate-50 p-3">
+                                          <span className="text-xl">{item.icon}</span>
+                                          <div>
+                                            <div className="text-sm font-semibold text-slate-900">{item.label}</div>
+                                            <div className="text-sm text-slate-600">{item.desc}</div>
+                                          </div>
+                                        </div>
+                                      ))}
+                                    </div>
                                   </div>
-                                </div>
+                                )}
 
-                                <div>
-                                  <div className="font-semibold text-slate-900">Search</div>
-                                  <div className="mt-1">
-                                    The search in the left panel helps you find the relevant debate topic. The search in
-                                    the main panel is for quotes, highlights and Hansard material related to the selected topic.
+                                {introStep === 3 && (
+                                  <div>
+                                    <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">Good to know</div>
+                                    <h2 className="text-xl font-bold text-slate-900">A few things to keep in mind</h2>
+                                    <div className="mt-4 space-y-2">
+                                      {[
+                                        { icon: "🟢", label: "Green = passed", desc: "A green border means the proposition or amendment was approved by the States." },
+                                        { icon: "🔴", label: "Red = defeated", desc: "A red border means it was voted down." },
+                                        { icon: "✂️", label: "Highlights are curated", desc: "The quotes shown are selected excerpts. Use 'Read full speech' for the complete text." },
+                                        { icon: "🔗", label: "Always verify", desc: "Every item links back to the official Hansard and voting record so you can check the source." },
+                                      ].map((item) => (
+                                        <div key={item.label} className="flex gap-3 rounded-xl bg-slate-50 p-3">
+                                          <span className="text-xl">{item.icon}</span>
+                                          <div>
+                                            <div className="text-sm font-semibold text-slate-900">{item.label}</div>
+                                            <div className="text-sm text-slate-600">{item.desc}</div>
+                                          </div>
+                                        </div>
+                                      ))}
+                                    </div>
                                   </div>
-                                </div>
+                                )}
 
-                                <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-slate-600">
-                                  This site summarises official material and links back to the official record for verification.
-                                </div>
                               </div>
 
+                              {/* Footer navigation */}
                               <div className="flex items-center justify-between gap-3 border-t px-5 py-4 sm:px-6">
                                 <button
-                                  onClick={closeIntro}
-                                  className="rounded-xl bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-800 ring-1 ring-blue-200 hover:bg-blue-100"
+                                  onClick={() => setIntroStep((s) => Math.max(0, s - 1))}
+                                  className={`rounded-xl px-4 py-2 text-sm font-semibold ring-1 ring-slate-200 ${
+                                    introStep === 0 ? "invisible" : "text-slate-700 hover:bg-slate-50"
+                                  }`}
                                 >
-                                  Got it
+                                  ← Back
                                 </button>
 
                                 <button
-                                  onClick={() => setShowIntro(false)}
-                                  className="text-sm font-medium text-slate-500 hover:text-slate-700"
+                                  onClick={() => setIntroStep((s) => s + 1)}
+                                  className="text-sm font-medium text-slate-400 hover:text-slate-600"
                                 >
-                                  Close for now
+                                  Skip intro
                                 </button>
+
+                                {introStep < 3 ? (
+                                  <button
+                                    onClick={() => setIntroStep((s) => s + 1)}
+                                    className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700"
+                                  >
+                                    Next →
+                                  </button>
+                                ) : (
+                                  <button
+                                    onClick={closeIntro}
+                                    className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700"
+                                  >
+                                    Start exploring →
+                                  </button>
+                                )}
                               </div>
+
                             </div>
                           </div>
                         ) : null}
