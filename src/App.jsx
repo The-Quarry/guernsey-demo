@@ -146,9 +146,9 @@ function dateLabelFromSegments(it) {
 function ItemCard({ it, meeting, isSelected, onSelect, indent = false, vote }) {
   const outcomeCls = (() => {
     const s = it?.outcome?.status;
-    if (s === "passed") return "ring-1 ring-inset ring-emerald-300";
-    if (s === "defeated") return "ring-1 ring-inset ring-rose-300";
-    if (s === "withdrawn") return "ring-1 ring-inset ring-amber-300";
+    if (s === "passed") return "border-l-4 border-l-emerald-500 bg-emerald-50 ring-1 ring-inset ring-emerald-200";
+    if (s === "defeated") return "border-l-4 border-l-rose-500 bg-rose-50 ring-1 ring-inset ring-rose-200";
+    if (s === "withdrawn") return "border-l-4 border-l-amber-500 bg-amber-50 ring-1 ring-inset ring-amber-200";
     return "";
   })();
 
@@ -170,13 +170,11 @@ function ItemCard({ it, meeting, isSelected, onSelect, indent = false, vote }) {
   return (
     <div
       onClick={onSelect}
-      className={`group rounded-2xl border p-4 cursor-pointer
-        ${
-          isSelected
-            ? "border-blue-300 bg-blue-50"
-            : "border-slate-200 bg-white hover:bg-slate-50"
+      className={`group rounded-2xl border p-4 cursor-pointer transition-all
+        ${isSelected
+          ? "border-blue-400 bg-blue-50 border-l-4 border-l-blue-500 shadow-sm"
+          : outcomeCls || "border-slate-200 bg-white hover:bg-slate-50 hover:border-slate-300"
         }
-        ${outcomeCls}
         ${indent ? "ml-3" : ""}
       `}
     >
@@ -322,17 +320,42 @@ function getCounts(voteRecord) {
   };
 }
 
-function VoteSummary({ vote, compact = false }) {
+function VoteSummary({ vote }) {
   const c = getCounts(vote);
   if (!c) return null;
 
+  const total = c.forN + c.againstN + c.absentN + c.abstainedN + c.didNotVoteN;
+  const pct = (n) => total > 0 ? ((n / total) * 100).toFixed(1) : 0;
+
+  const segments = [
+    { n: c.forN,        label: "For",          color: "#10b981" },
+    { n: c.againstN,    label: "Against",      color: "#f43f5e" },
+    { n: c.abstainedN,  label: "Abstained",    color: "#94a3b8" },
+    { n: c.absentN,     label: "Absent",       color: "#e2e8f0" },
+  ].filter(s => s.n > 0);
+
   return (
-    <div className={`mt-2 flex flex-wrap items-center gap-2 ${compact ? "" : "text-xs"}`}>
-      <Pill tone="ok">For: {c.forN}</Pill>
-      <Pill tone="bad">Against: {c.againstN}</Pill>
-      <Pill tone="warn">Absent: {c.absentN}</Pill>
-      {c.abstainedN ? <Pill>Abstained: {c.abstainedN}</Pill> : null}
-      {c.didNotVoteN ? <Pill>Did not vote: {c.didNotVoteN}</Pill> : null}
+    <div className="mt-3">
+      {/* Bar */}
+      <div className="flex h-4 w-full overflow-hidden rounded-full">
+        {segments.map((s) => (
+          <div
+            key={s.label}
+            style={{ width: `${pct(s.n)}%`, backgroundColor: s.color }}
+            title={`${s.label}: ${s.n}`}
+          />
+        ))}
+      </div>
+      {/* Legend */}
+      <div className="mt-2 flex flex-wrap gap-3">
+        {segments.map((s) => (
+          <div key={s.label} className="flex items-center gap-1.5 text-xs text-slate-600">
+            <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ backgroundColor: s.color }} />
+            {s.label}: <span className="font-semibold text-slate-900">{s.n}</span>
+            <span className="text-slate-400">({pct(s.n)}%)</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -544,10 +567,27 @@ function DeputyVoteTimeline({
       {filtered.length ? (
         <div className="mt-3 max-h-[34vh] overflow-y-auto pr-2 space-y-2">
           {filtered.map((r) => (
-            <div key={r.vote_id} className="rounded-xl border border-slate-200 p-3">
+            <div key={r.vote_id} className={`rounded-xl border p-3
+              ${r.bucket === "pour" ? "border-l-4 border-l-emerald-500 bg-emerald-50 ring-1 ring-inset ring-emerald-200" :
+                r.bucket === "contre" ? "border-l-4 border-l-rose-500 bg-rose-50 ring-1 ring-inset ring-rose-200" :
+                r.bucket === "ne_vote_pas" ? "border-l-4 border-l-amber-500 bg-amber-50 ring-1 ring-inset ring-amber-200" :
+                r.bucket === "absent" ? "border-l-4 border-l-slate-400 bg-slate-50 ring-1 ring-inset ring-slate-200" :
+                "border-slate-200"}`}
+            >
               <div className="flex flex-wrap items-center gap-2">
+                <span className={`inline-flex items-center rounded-lg px-3 py-1 text-sm font-bold tracking-tight
+                  ${r.bucket === "pour" ? "bg-emerald-100 text-emerald-800 ring-1 ring-emerald-300" :
+                    r.bucket === "contre" ? "bg-rose-100 text-rose-800 ring-1 ring-rose-300" :
+                    r.bucket === "ne_vote_pas" ? "bg-amber-100 text-amber-800 ring-1 ring-amber-300" :
+                    r.bucket === "absent" ? "bg-slate-100 text-slate-600 ring-1 ring-slate-300" :
+                    "bg-slate-100 text-slate-600 ring-1 ring-slate-300"}`}
+                >
+                  {r.bucket === "pour" ? "✓ For" :
+                  r.bucket === "contre" ? "✗ Against" :
+                  r.bucket === "ne_vote_pas" ? "~ Abstained" :
+                  r.bucket === "absent" ? "Absent" : r.bucket}
+                </span>
                 <span className="text-xs text-slate-500">{r.meeting_date}</span>
-                <VotePill bucket={r.bucket} />
                 {r.amendment_ref ? <Pill tone="warn">{r.amendment_ref}</Pill> : null}
               </div>
 
@@ -563,7 +603,6 @@ function DeputyVoteTimeline({
                 >
                   Open this topic
                 </button>
-
                 {r.source_url ? (
                   <ExternalLink href={r.source_url}>Official voting record</ExternalLink>
                 ) : null}
@@ -589,6 +628,9 @@ export default function App() {
   const [openSpeech, setOpenSpeech] = useState(null);
   const [activeSegmentIdx, setActiveSegmentIdx] = useState(0);
   const [showVoteDetails, setShowVoteDetails] = useState(false);
+  const [showIntro, setShowIntro] = useState(() => {
+    return localStorage.getItem("guernsey_intro_seen") !== "yes";
+  });
   const RELATED_COVERAGE = [
     {
       id: "coverage-1",
@@ -1030,6 +1072,10 @@ const votesByPerson = useMemo(() => {
     return chunk.trim() || speech.text || "";
   }
 
+  function closeIntro() {
+    localStorage.setItem("guernsey_intro_seen", "yes");
+    setShowIntro(false);
+  }
 
   // ✅ NEW: robust matching between a people.json person_id and speeches speaker_label/person_name.
   function speechMatchesPerson(sp, personId) {
@@ -1169,60 +1215,79 @@ const votesByPerson = useMemo(() => {
     >
       <div className="mx-auto max-w-6xl px-4 py-8">
                 {/* Header */}
-                <div className="rounded-2xl bg-white shadow-sm ring-1 ring-slate-200">
-                  <div className="flex flex-col gap-4 p-5 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <div className="flex flex-wrap items-center gap-2">
-                        <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight text-slate-900">
-                          The Quarry&apos;s Policy Tracker: How debate around GST and corporate tax has evolved
-                        </h1>
-                      </div>
+                <div className="rounded-2xl overflow-hidden shadow-sm ring-1 ring-slate-200">
+                  {/* Yellow branded top bar */}
+                  <div className="bg-[#f8fd98] border-b border-yellow-200 px-5 py-3 flex items-center justify-between">
+                    <a href="https://www.thequarry.media" target="_blank" rel="noreferrer">
+                      <img
+                        src="https://www.thequarry.media/content/images/2025/05/The-Quarry-no-background.png"
+                        alt="The Quarry"
+                        className="h-16 w-auto"
+                      />
+                    </a>
+                    <span className="text-xs font-medium text-slate-500 tracking-wide uppercase">
+                      Policy Tracker
+                    </span>
+                  </div>
 
-                      <p className="mt-2 max-w-3xl text-sm sm:text-base leading-relaxed text-slate-600">
-                        This page brings together debates, proposed changes, statements made by politicians and their votes
-                        to show how positions on GST, corporate tax and savings have changed.
+                  {/* Main header content */}
+                  <div className="bg-white flex flex-col gap-4 p-5 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-tight">
+                        How debate around GST and corporate tax has evolved
+                      </h1>
+
+                      <p className="mt-2 max-w-2xl text-sm sm:text-base leading-relaxed text-slate-500">
+                        Debates, proposed changes, statements and votes — showing how positions
+                        on GST, corporate tax, social security and savings have changed over time.
                       </p>
 
                       <div className="mt-3 flex flex-wrap gap-3">
                         <ExternalLink href={DATA.meeting.sourceMeetingUrl}>Official meeting page</ExternalLink>
-                        <ExternalLink href={DATA.meeting.billetPdfUrl}>Billet d’État (PDF)</ExternalLink>
+                        <ExternalLink href={DATA.meeting.billetPdfUrl}>Billet d'État (PDF)</ExternalLink>
                         <ExternalLink href={DATA.meeting.hansardPdfUrl}>Hansard (PDF)</ExternalLink>
                       </div>
                     </div>
 
-                    <div className="flex flex-wrap gap-2">
-                      <button
-                        onClick={() => setTab("debates")}
-                        className={`rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset ${
-                          tab === "debates"
-                            ? "bg-blue-50 text-blue-800 ring-blue-200"
-                            : "bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
-                        }`}
-                      >
-                        Debates
-                      </button>
-
-                      <button
-                        onClick={() => setTab("coverage")}
-                        className={`rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset ${
-                          tab === "coverage"
-                            ? "bg-blue-50 text-blue-800 ring-blue-200"
-                            : "bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
-                        }`}
-                      >
-                        Related coverage
-                      </button>
-
-                      <button
-                        onClick={() => setTab("approved")}
-                        className={`rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset ${
-                          tab === "approved"
-                            ? "bg-emerald-50 text-emerald-800 ring-emerald-200"
-                            : "bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
-                        }`}
-                      >
-                        What was approved
-                      </button>
+                    <div className="flex flex-col gap-2 shrink-0">
+                      <div className="flex flex-wrap gap-2">
+                        <button
+                          onClick={() => setTab("debates")}
+                          className={`rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset ${
+                            tab === "debates"
+                              ? "bg-slate-900 text-white ring-slate-900"
+                              : "bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
+                          }`}
+                        >
+                          Debates
+                        </button>
+                        <button
+                          onClick={() => setTab("coverage")}
+                          className={`rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset ${
+                            tab === "coverage"
+                              ? "bg-slate-900 text-white ring-slate-900"
+                              : "bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
+                          }`}
+                        >
+                          Related coverage
+                        </button>
+                        <button
+                          onClick={() => setTab("approved")}
+                          className={`rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset ${
+                            tab === "approved"
+                              ? "bg-slate-900 text-white ring-slate-900"
+                              : "bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
+                          }`}
+                        >
+                          What was approved
+                        </button>
+                        <button
+                          onClick={() => setShowIntro(true)}
+                          className="rounded-full px-3 py-1.5 text-sm font-medium ring-1 ring-inset bg-white text-slate-700 ring-slate-200 hover:bg-slate-50"
+                        >
+                          How to use this site
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1270,129 +1335,174 @@ const votesByPerson = useMemo(() => {
                   }
                 >
                   <div className="max-h-[calc(100vh-14rem)] overflow-y-auto pr-2 space-y-3">
-                    {groupedItems.map(({ main, amendments, propsAsAmended }) => {
-                      const mMain = DATA.meetings.find((x) => x.meeting_key === main.meeting_key);
-
-                      return (
-                        <div key={main.item_key} className="space-y-2">
-                          <ItemCard
-                            it={main}
-                            meeting={mMain}
-                            vote={votesByItemKey.get(main.item_key) || null}
-                            isSelected={selectedItemKey === main.item_key}
-                            onSelect={() => setSelectedItemKey(main.item_key)}
-                            onViewEvidence={() => {
-                              setSelectedItemKey(main.item_key);
-                              setTimeout(() => {
-                                hansardPanelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-                              }, 0);
-                            }}
-                          />
-
-                          {(amendments?.length || propsAsAmended?.length) ? (
-                            <div className="space-y-2">
-                              {/* ===== Amendments ===== */}
-                              {amendments?.length ? (
-                                <div className="space-y-2">
-                                  <button
-                                    onClick={(e) => {
-                                      e.stopPropagation();
-                                      const k = `${main.item_key}__amendments`;
-                                      setOpenParents((p) => ({ ...p, [k]: !p[k] }));
-                                    }}
-                                    className="w-full flex items-center justify-between rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-200 transition"
-                                    title="Show/hide amendments"
-                                  >
-                                    <span>Amendments</span>
-                                    <span className="text-xs text-slate-500">
-                                      {(openParents[`${main.item_key}__amendments`] || autoOpenGroups.has(`${main.item_key}__amendments`))
-                                        ? "▲ Hide"
-                                        : "▼ Show"}
-                                    </span>
-                                  </button>
-
-                                  {(openParents[`${main.item_key}__amendments`] || autoOpenGroups.has(`${main.item_key}__amendments`)) ? (
-                                    <div className="space-y-2">
-                                      {amendments.map((ch) => {
-                                        const mCh = DATA.meetings.find((x) => x.meeting_key === ch.meeting_key);
-                                        return (
-                                          <ItemCard
-                                            key={ch.item_key}
-                                            it={ch}
-                                            meeting={mCh}
-                                            vote={votesByItemKey.get(ch.item_key) || null}
-                                            isSelected={selectedItemKey === ch.item_key}
-                                            onSelect={() => setSelectedItemKey(ch.item_key)}
-                                            onViewEvidence={() => {
-                                              setSelectedItemKey(ch.item_key);
-                                              setTimeout(() => {
-                                                hansardPanelRef.current?.scrollIntoView({
-                                                  behavior: "smooth",
-                                                  block: "start",
-                                                });
-                                              }, 0);
-                                            }}
-                                          />
-                                        );
-                                      })}
-                                    </div>
-                                  ) : null}
-                                </div>
-                              ) : null}
-
-                              {/* ===== Propositions as amended ===== */}
-                              {propsAsAmended?.length ? (
-                                <div className="space-y-2">
-                                  <button
-                                    onClick={(e) => {
-                                      e.stopPropagation();
-                                      const k = `${main.item_key}__props`;
-                                      setOpenParents((p) => ({ ...p, [k]: !p[k] }));
-                                    }}
-                                    className="w-full flex items-center justify-between rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-200 transition"
-                                    title="Show/hide votes on amended propositions"
-                                  >
-                                    <span>Final propositions</span>
-                                    <span className="text-xs text-slate-500">
-                                      {(openParents[`${main.item_key}__props`] || autoOpenGroups.has(`${main.item_key}__props`))
-                                        ? "▲ Hide"
-                                        : "▼ Show"}
-                                    </span>
-                                  </button>
-
-                                  {(openParents[`${main.item_key}__props`] || autoOpenGroups.has(`${main.item_key}__props`)) ? (
-                                    <div className="space-y-2">
-                                      {propsAsAmended.map((ch) => {
-                                        const mCh = DATA.meetings.find((x) => x.meeting_key === ch.meeting_key);
-                                        return (
-                                          <ItemCard
-                                            key={ch.item_key}
-                                            it={ch}
-                                            meeting={mCh}
-                                            vote={votesByItemKey.get(ch.item_key) || null}
-                                            isSelected={selectedItemKey === ch.item_key}
-                                            onSelect={() => setSelectedItemKey(ch.item_key)}
-                                            onViewEvidence={() => {
-                                              setSelectedItemKey(ch.item_key);
-                                              setTimeout(() => {
-                                                hansardPanelRef.current?.scrollIntoView({
-                                                  behavior: "smooth",
-                                                  block: "start",
-                                                });
-                                              }, 0);
-                                            }}
-                                          />
-                                        );
-                                      })}
-                                    </div>
-                                  ) : null}
-                                </div>
-                              ) : null}
+                    {[
+                      {
+                        label: "Jan/Feb 2023",
+                        groups: groupedItems.filter(({ main }) =>
+                          (main.segments || []).some((s) =>
+                            [
+                              "m_2023_01_25",
+                              "m_2023_01_26",
+                              "m_2023_01_27",
+                              "m_2023_02_15",
+                              "m_2023_02_16",
+                              "m_2023_02_17",
+                            ].includes(s.meeting_key)
+                          )
+                        ),
+                      },
+                      {
+                        label: "October 2023",
+                        groups: groupedItems.filter(({ main }) =>
+                          (main.segments || []).some((s) =>
+                            ["m_2023_10_17", "m_2023_10_18", "m_2023_10_19", "m_2023_10_20"].includes(s.meeting_key)
+                          )
+                        ),
+                      },
+                      {
+                        label: "November 2024",
+                        groups: groupedItems.filter(({ main }) =>
+                          (main.segments || []).some((s) =>
+                            ["m_2024_11_05", "m_2024_11_06", "m_2024_11_07", "m_2024_11_08"].includes(s.meeting_key)
+                          )
+                        ),
+                      },
+                    ].map(
+                      ({ label, groups }) =>
+                        groups.length ? (
+                          <div key={label} className="space-y-3">
+                            <div className="sticky top-0 z-10 rounded-md bg-slate-900 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm">
+                              {label}
                             </div>
-                          ) : null}
-                        </div>
-                      );
-                    })}
+
+                            {groups.map(({ main, amendments, propsAsAmended }) => {
+                              const mMain = DATA.meetings.find((x) => x.meeting_key === main.meeting_key);
+
+                              return (
+                                <div key={main.item_key} className="space-y-2">
+                                  <ItemCard
+                                    it={main}
+                                    meeting={mMain}
+                                    vote={votesByItemKey.get(main.item_key) || null}
+                                    isSelected={selectedItemKey === main.item_key}
+                                    onSelect={() => setSelectedItemKey(main.item_key)}
+                                    onViewEvidence={() => {
+                                      setSelectedItemKey(main.item_key);
+                                      setTimeout(() => {
+                                        hansardPanelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+                                      }, 0);
+                                    }}
+                                  />
+
+                                  {(amendments?.length || propsAsAmended?.length) ? (
+                                    <div className="space-y-2">
+                                      {amendments?.length ? (
+                                        <div className="space-y-2">
+                                          <button
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              const k = `${main.item_key}__amendments`;
+                                              setOpenParents((p) => ({ ...p, [k]: !p[k] }));
+                                            }}
+                                            className="w-full flex items-center justify-between rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-200 transition"
+                                            title="Show/hide amendments"
+                                          >
+                                            <span>Amendments</span>
+                                            <span className="text-xs text-slate-500">
+                                              {(openParents[`${main.item_key}__amendments`] ||
+                                                autoOpenGroups.has(`${main.item_key}__amendments`))
+                                                ? "▲ Hide"
+                                                : "▼ Show"}
+                                            </span>
+                                          </button>
+
+                                          {(openParents[`${main.item_key}__amendments`] ||
+                                            autoOpenGroups.has(`${main.item_key}__amendments`)) ? (
+                                            <div className="space-y-2">
+                                              {amendments.map((ch) => {
+                                                const mCh = DATA.meetings.find((x) => x.meeting_key === ch.meeting_key);
+                                                return (
+                                                  <ItemCard
+                                                    key={ch.item_key}
+                                                    it={ch}
+                                                    meeting={mCh}
+                                                    vote={votesByItemKey.get(ch.item_key) || null}
+                                                    isSelected={selectedItemKey === ch.item_key}
+                                                    onSelect={() => setSelectedItemKey(ch.item_key)}
+                                                    onViewEvidence={() => {
+                                                      setSelectedItemKey(ch.item_key);
+                                                      setTimeout(() => {
+                                                        hansardPanelRef.current?.scrollIntoView({
+                                                          behavior: "smooth",
+                                                          block: "start",
+                                                        });
+                                                      }, 0);
+                                                    }}
+                                                  />
+                                                );
+                                              })}
+                                            </div>
+                                          ) : null}
+                                        </div>
+                                      ) : null}
+
+                                      {propsAsAmended?.length ? (
+                                        <div className="space-y-2">
+                                          <button
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              const k = `${main.item_key}__props`;
+                                              setOpenParents((p) => ({ ...p, [k]: !p[k] }));
+                                            }}
+                                            className="w-full flex items-center justify-between rounded-xl bg-slate-100 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-200 transition"
+                                            title="Show/hide votes on amended propositions"
+                                          >
+                                            <span>Final propositions</span>
+                                            <span className="text-xs text-slate-500">
+                                              {(openParents[`${main.item_key}__props`] ||
+                                                autoOpenGroups.has(`${main.item_key}__props`))
+                                                ? "▲ Hide"
+                                                : "▼ Show"}
+                                            </span>
+                                          </button>
+
+                                          {(openParents[`${main.item_key}__props`] ||
+                                            autoOpenGroups.has(`${main.item_key}__props`)) ? (
+                                            <div className="space-y-2">
+                                              {propsAsAmended.map((ch) => {
+                                                const mCh = DATA.meetings.find((x) => x.meeting_key === ch.meeting_key);
+                                                return (
+                                                  <ItemCard
+                                                    key={ch.item_key}
+                                                    it={ch}
+                                                    meeting={mCh}
+                                                    vote={votesByItemKey.get(ch.item_key) || null}
+                                                    isSelected={selectedItemKey === ch.item_key}
+                                                    onSelect={() => setSelectedItemKey(ch.item_key)}
+                                                    onViewEvidence={() => {
+                                                      setSelectedItemKey(ch.item_key);
+                                                      setTimeout(() => {
+                                                        hansardPanelRef.current?.scrollIntoView({
+                                                          behavior: "smooth",
+                                                          block: "start",
+                                                        });
+                                                      }, 0);
+                                                    }}
+                                                  />
+                                                );
+                                              })}
+                                            </div>
+                                          ) : null}
+                                        </div>
+                                      ) : null}
+                                    </div>
+                                  ) : null}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        ) : null
+                    )}
 
                     {!filteredItems.length && personFilter === "all" && (
                       <div className="rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
@@ -1616,8 +1726,38 @@ const votesByPerson = useMemo(() => {
                   
 
                   <div ref={evidenceSectionRef}>
+                    {selectedItem && (
+                      <div className="mb-3 flex items-center gap-1.5 text-xs text-slate-500 flex-wrap">
+                        <span className="font-medium text-slate-700">
+                          {["m_2023_01_25","m_2023_01_26","m_2023_01_27","m_2023_02_15","m_2023_02_16","m_2023_02_17"]
+                            .some(k => (selectedItem.segments||[]).some(s=>s.meeting_key===k))
+                            ? "Jan/Feb 2023"
+                            : ["m_2023_10_17","m_2023_10_18","m_2023_10_19","m_2023_10_20"]
+                            .some(k => (selectedItem.segments||[]).some(s=>s.meeting_key===k))
+                            ? "October 2023"
+                            : "Budget 2025"}
+                        </span>
+                        <span className="text-slate-300">›</span>
+                        {parentItem && (
+                          <>
+                            <span>{parentItem.agenda_item_label}</span>
+                            <span className="text-slate-300">›</span>
+                          </>
+                        )}
+                        <span className="font-medium text-slate-900">
+                          {primaryLabelForItem(selectedItem)}
+                        </span>
+                      </div>
+                    )}
                     <Section
-                      title="What was said and how they voted"
+                      title={
+                        personFilter !== "all"
+                          ? (() => {
+                              const p = people.find(x => x.person_id === personFilter);
+                              return p ? `${p.name} — what they said and how they voted` : "What was said and how they voted";
+                            })()
+                          : "What was said and how they voted"
+                      }
                       right={
                         <div className="flex flex-wrap items-center justify-end gap-2 max-w-full">
                           <select
@@ -1682,11 +1822,11 @@ const votesByPerson = useMemo(() => {
                           <div
                             className={`rounded-2xl border p-3 ${
                               selectedItem?.outcome?.status === "passed"
-                                ? "border-emerald-300 bg-emerald-50/40"
+                                ? "border-l-4 border-l-emerald-500 bg-emerald-50 ring-1 ring-inset ring-emerald-200"
                                 : selectedItem?.outcome?.status === "defeated"
-                                ? "border-rose-300 bg-rose-50/40"
+                                ? "border-l-4 border-l-rose-500 bg-rose-50 ring-1 ring-inset ring-rose-200"
                                 : selectedItem?.outcome?.status === "withdrawn"
-                                ? "border-amber-300 bg-amber-50/40"
+                                ? "border-l-4 border-l-amber-500 bg-amber-50 ring-1 ring-inset ring-amber-200"
                                 : "border-slate-200 bg-slate-50"
                             }`}
                           >
@@ -1714,6 +1854,11 @@ const votesByPerson = useMemo(() => {
                                       selectedItem.phase_label || selectedItem.agenda_item_label
                                     )}
                                   </div>
+                                  {selectedItem?.outcome?.status && (
+                                    <div className="mt-2">
+                                      <OutcomePill outcome={selectedItem.outcome} />
+                                    </div>
+                                  )}
                                 </>
                               ) : (
                                 <span className="text-slate-600">No item selected</span>
@@ -1922,6 +2067,101 @@ const votesByPerson = useMemo(() => {
                           This page summarises and links to official States of Guernsey material. It does not replace the official record.
                         </div>
 
+                        {showIntro ? (
+                          <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-3 sm:p-6 overflow-y-auto">
+                            <div className="w-full max-w-2xl min-h-0 flex flex-col rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
+                              <div className="border-b px-5 py-4 sm:px-6">
+                                <h2 className="text-xl font-semibold text-slate-900">
+                                  Welcome to The Quarry&apos;s Policy Tracker
+                                </h2>
+                                <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                                  This tracker brings together States debates, recorded votes and speaches
+                                  so you can follow how Guernsey&apos;s arguments around GST, corporate tax, social security and
+                                  savings evolved over time.
+                                </p>
+                              </div>
+
+                              <div className="flex-1 overflow-y-auto px-5 py-5 sm:px-6 space-y-4 text-sm leading-relaxed text-slate-700">
+                                <div>
+                                  <div className="font-semibold text-slate-900">What these debates were</div>
+                                  <div className="mt-1">
+                                    The debates collected here look at how the States tried to respond to Guernsey&apos;s
+                                    long-term funding pressures. Members debated whether the island should raise more
+                                    revenue through measures such as GST, change how businesses are taxed, make savings,
+                                    or use a different mix of reforms.
+                                  </div>
+                                </div>
+
+                                <div>
+                                  <div className="font-semibold text-slate-900">The timeline covered here</div>
+                                  <div className="mt-1">
+                                    This is not one single debate. It brings together three linked debates across
+                                    different years: the major tax debate in early 2023, the Funding & Investment Plan in Autumn that year and the Budget 2025 debate
+                                    in late 2024. Members often voted
+                                    first on amendments, then again on the final propositions as amended, which means a
+                                    measure could be supported at one stage but rejected later.
+                                  </div>
+                                </div>
+
+                                <div>
+                                  <div className="font-semibold text-slate-900">How to use the site</div>
+                                  <div className="mt-1">
+                                    Use the left-hand panel to choose the part of the debate you want to look at. Main
+                                    debate cards show the broader section being discussed, while amendments and final
+                                    propositions show the more specific decisions taken within it.
+                                  </div>
+                                </div>
+
+                                <div>
+                                  <div className="font-semibold text-slate-900">What the right-hand panel shows</div>
+                                  <div className="mt-1">
+                                    The main panel shows the selected topic, the vote where available, curated highlights,
+                                    Hansard matches, and links back to the official Hansard and voting records so you can
+                                    verify the material yourself. You can also pick a single States member to see what they were doing.
+                                  </div>
+                                </div>
+
+                                <div>
+                                  <div className="font-semibold text-slate-900">The main views</div>
+                                  <div className="mt-1">
+                                    The <strong>Debates</strong> button lets you explore speeches, votes and propositions in context.
+                                    <strong> Related coverage</strong> links to The Quarry&apos;s reporting.
+                                    <strong> What was approved</strong> gives a quick summary of what actually passed.
+                                  </div>
+                                </div>
+
+                                <div>
+                                  <div className="font-semibold text-slate-900">Search</div>
+                                  <div className="mt-1">
+                                    The search in the left panel helps you find the relevant debate topic. The search in
+                                    the main panel is for quotes, highlights and Hansard material related to the selected topic.
+                                  </div>
+                                </div>
+
+                                <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-slate-600">
+                                  This site summarises official material and links back to the official record for verification.
+                                </div>
+                              </div>
+
+                              <div className="flex items-center justify-between gap-3 border-t px-5 py-4 sm:px-6">
+                                <button
+                                  onClick={closeIntro}
+                                  className="rounded-xl bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-800 ring-1 ring-blue-200 hover:bg-blue-100"
+                                >
+                                  Got it
+                                </button>
+
+                                <button
+                                  onClick={() => setShowIntro(false)}
+                                  className="text-sm font-medium text-slate-500 hover:text-slate-700"
+                                >
+                                  Close for now
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        ) : null}
+
                         {/* ===== FULL SPEECH MODAL ===== */}
                         {openSpeech ? (
                           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4">
@@ -1959,9 +2199,9 @@ const votesByPerson = useMemo(() => {
               );
             })()
           )}
-        </div>
+      </div>
       </div>
     </div>
+  </div>
   );
- </div>
-)}
+}
