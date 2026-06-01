@@ -622,7 +622,7 @@ export default function App() {
   const [tab, setTab] = useState("debates");
   const [q, setQ] = useState(""); // IMPORTANT: when deputy selected, this becomes phrase search
   const [personFilter, setPersonFilter] = useState("all");
-  const [selectedItemKey, setSelectedItemKey] = useState("p2024_91_main");
+  const [selectedItemKey, setSelectedItemKey] = useState("p2026_7_main");
   const [evidenceQ, setEvidenceQ] = useState(""); // right-panel search (used only when personFilter === "all")
   const hansardPanelRef = React.useRef(null);
   const [openParents, setOpenParents] = useState({});
@@ -1026,7 +1026,7 @@ const votesByPerson = useMemo(() => {
 
     const approvedPropositionsByMeeting = useMemo(() => {
       const rows = (DATA.items || [])
-        .filter((it) => it?.phase_type === "proposition_as_amended")
+        .filter((it) => it?.phase_type === "proposition_as_amended" || it?.phase_type === "main")
         .filter((it) => it?.outcome?.status === "passed")
         .filter((it) => (it?.notes || "").trim())
         .map((it) => ({
@@ -2140,9 +2140,9 @@ const votesByPerson = useMemo(() => {
                                 {introStep === 0 && (
                                   <div>
                                     <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">The story</div>
-                                    <h2 className="text-xl font-bold text-slate-900">Guernsey faced a funding gap — and struggled to agree how to fill it</h2>
+                                    <h2 className="text-xl font-bold text-slate-900">Guernsey faces a funding gap — and it has struggling to agree how to fill it</h2>
                                     <p className="mt-3 text-sm leading-relaxed text-slate-600">
-                                      The island needed tens of millions of pounds more each year to fund schools, a new hospital and other infrastructure. The big question was how to raise it — through a new sales tax (GST), changes to how businesses are taxed, spending cuts, or some combination.
+                                      The island needs tens of millions of pounds more each year to fund schools, a new hospital facilities and other infrastructure. The big question is how to raise it — through a new sales tax (GST), changes to how businesses are taxed, spending cuts, or some combination.
                                     </p>
 
                                     {/* Timeline */}
@@ -2152,6 +2152,7 @@ const votesByPerson = useMemo(() => {
                                         { date: "Jan–Feb 2023", label: "The Tax Review", desc: "Policy & Resources proposed a GST package. The States rejected all major options." },
                                         { date: "Oct 2023", label: "Funding & Investment Plan", desc: "A second attempt to agree a long-term funding strategy. P&R ordered to report back with fresh answers." },
                                         { date: "Nov 2024", label: "Budget 2025", desc: "The debate continued into the annual budget, with more proposals and votes that set the course for a GST package to come forward in 2026." },
+                                        { date: "Feb 2026", label: "Tax Reform: Workstream 1", desc: "Deputies agreed the shape of a potential GST — 5% including food — ahead of a final summer vote on whether to implement it. Attempts to scrap GST entirely and to rule out territorial corporate tax both failed." },
                                       ].map((item, i) => (
                                         <div key={i} className="relative pl-8 pb-4 last:pb-0">
                                           <div className="absolute left-1.5 top-1.5 h-3 w-3 rounded-full bg-slate-900 ring-2 ring-white" />
@@ -2249,7 +2250,7 @@ const votesByPerson = useMemo(() => {
                                 </button>
 
                                 <button
-                                  onClick={() => setIntroStep((s) => s + 1)}
+                                  onClick={closeIntro}
                                   className="text-sm font-medium text-slate-400 hover:text-slate-600"
                                 >
                                   Skip intro
