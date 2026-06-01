@@ -2118,6 +2118,15 @@ const votesByPerson = useMemo(() => {
                           This page summarises and links to official States of Guernsey material. It does not replace the official record.
                         </div>
 
+                </>
+              );
+            })()
+          )}
+      </div>
+      </div>
+    </div>
+  </div>
+
                         {showIntro ? (
                           <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-3 sm:p-6 overflow-y-auto">
                             <div className="w-full max-w-2xl min-h-0 flex flex-col rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
@@ -2140,7 +2149,7 @@ const votesByPerson = useMemo(() => {
                                 {introStep === 0 && (
                                   <div>
                                     <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">The story</div>
-                                    <h2 className="text-xl font-bold text-slate-900">Guernsey faces a funding gap — and it has struggling to agree how to fill it</h2>
+                                    <h2 className="text-xl font-bold text-slate-900">Guernsey faces a funding gap — and it is struggling to agree how to fill it</h2>
                                     <p className="mt-3 text-sm leading-relaxed text-slate-600">
                                       The island needs tens of millions of pounds more each year to fund schools, a new hospital facilities and other infrastructure. The big question is how to raise it — through a new sales tax (GST), changes to how businesses are taxed, spending cuts, or some combination.
                                     </p>
@@ -2310,13 +2319,6 @@ const votesByPerson = useMemo(() => {
                             </div>
                           </div>
                         ) : null}
-                </>
-              );
-            })()
-          )}
-      </div>
-      </div>
-    </div>
-  </div>
+
   );
 }
