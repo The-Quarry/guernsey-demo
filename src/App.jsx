@@ -166,15 +166,8 @@ function ItemCard({ it, meeting, isSelected, onSelect, indent = false, vote }) {
 
   // Left-rail description line:
   // - main: existing notes summary
-  // - amendment: split notes into bold first sentence + rest
+  // - child: show your user-friendly notes (what it does)
   const description = hasNotes ? it.notes.trim() : null;
-  const firstSentenceEnd = description ? description.search(/[.!?](\s|$)/) : -1;
-  const descSummary = (!isMain && description && firstSentenceEnd > 0)
-    ? description.slice(0, firstSentenceEnd + 1)
-    : null;
-  const descRest = (!isMain && descSummary)
-    ? description.slice(firstSentenceEnd + 1).trim()
-    : null;
 
   return (
     <div
@@ -193,29 +186,13 @@ function ItemCard({ it, meeting, isSelected, onSelect, indent = false, vote }) {
           {title}
         </div>
 
-        {descSummary ? (
-          <div className="mt-2 text-sm font-semibold leading-snug text-slate-800">
-            {descSummary}
-          </div>
-        ) : null}
-
-        {description && !descSummary ? (
+        {description ? (
           <div
             className={`mt-2 text-base leading-relaxed text-slate-800 ${
               isSelected ? "" : "line-clamp-4 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-6 after:bg-gradient-to-t after:from-white"
             }`}
           >
             {description}
-          </div>
-        ) : null}
-
-        {descRest ? (
-          <div
-            className={`mt-1 text-sm leading-relaxed text-slate-600 ${
-              isSelected ? "" : "line-clamp-3 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-6 after:bg-gradient-to-t after:from-white"
-            }`}
-          >
-            {descRest}
           </div>
         ) : null}
       </div>
@@ -590,7 +567,7 @@ function DeputyVoteTimeline({
       />
 
       {filtered.length ? (
-        <div className="mt-3 max-h-[34vh] overflow-y-auto pr-2 space-y-2">
+        <div className="mt-3 pr-2 space-y-2">
           {filtered.map((r) => (
             <div key={r.vote_id} className={`rounded-xl border p-3
               ${r.bucket === "pour" ? "border-l-4 border-l-emerald-500 bg-emerald-50 ring-1 ring-inset ring-emerald-200" :
@@ -612,7 +589,7 @@ function DeputyVoteTimeline({
                   r.bucket === "ne_vote_pas" ? "~ Abstained" :
                   r.bucket === "absent" ? "Absent" : r.bucket}
                 </span>
-                <span className="text-xs text-slate-500">{r.meeting_date}</span>
+                <span className="text-xs text-slate-500">{formatDateLong(r.meeting_date)}</span>
                 {r.amendment_ref ? <Pill tone="warn">{r.amendment_ref}</Pill> : null}
               </div>
 
@@ -1078,15 +1055,14 @@ const votesByPerson = useMemo(() => {
 
       const grouped = new Map();
       for (const row of rows) {
-        const groupKey = row.meeting_date || row.meeting_key || "unknown";
-        if (!grouped.has(groupKey)) {
-          grouped.set(groupKey, {
+        if (!grouped.has(row.meeting_key)) {
+          grouped.set(row.meeting_key, {
             meeting_key: row.meeting_key,
             meeting_date: row.meeting_date,
             items: [],
           });
         }
-        grouped.get(groupKey).items.push(row);
+        grouped.get(row.meeting_key).items.push(row);
       }
 
       return Array.from(grouped.values()).sort((a, b) =>
@@ -1358,7 +1334,7 @@ const votesByPerson = useMemo(() => {
 
           <div className="rounded-2xl bg-white px-4 py-3 shadow-sm ring-1 ring-inset ring-slate-200 flex items-center gap-3">
             <div className="text-xl font-semibold text-slate-900">{kpis.totalPeople}</div>
-            <div className="text-sm text-slate-600">States members </div>
+            <div className="text-sm text-slate-600">Deputies included</div>
           </div>
         </div>
 
@@ -1819,9 +1795,9 @@ const votesByPerson = useMemo(() => {
                             value={personFilter}
                             onChange={(e) => setPersonFilter(e.target.value)}
                             className="w-full sm:w-56 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
-                            title="Filter by States member"
+                            title="Filter by deputy"
                           >
-                            <option value="all">Filter by States member…</option>
+                            <option value="all">All people</option>
                             {people.map((p) => (
                               <option key={p.person_id} value={p.person_id}>
                                 {p.name}
@@ -1862,7 +1838,7 @@ const votesByPerson = useMemo(() => {
                             placeholder={
                               evidenceMode === "person"
                                 ? "Filter highlights / votes…"
-                                : "Search speeches & highlights…"
+                                : "Search this topic (Hansard + highlights)…"
                             }
                             className="w-full sm:w-64 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
                           />
@@ -2079,8 +2055,8 @@ const votesByPerson = useMemo(() => {
                                 >
                                   <div className="flex flex-wrap items-center gap-2">
                                     <span className="text-sm font-semibold text-slate-900">{h.person_name}</span>
-                                    <span className="text-sm text-slate-500">{formatDateLong(h.meeting_date)}</span>
-                                    {h.topic_tags?.length ? <Pill>{h.topic_tags[0].replace(/_/g, ' ')}</Pill> : null}
+                                    <span className="text-sm text-slate-500">{h.meeting_date}</span>
+                                    <Pill>Highlight</Pill>
                                   </div>
 
                                   {evidenceMode === "person" ? (
@@ -2278,7 +2254,7 @@ const votesByPerson = useMemo(() => {
                                         { icon: "👈", label: "Left panel", desc: "Choose which debate or amendment to look at. Topics are grouped by meeting date." },
                                         { icon: "📰", label: "Right panel", desc: "See the vote result, curated highlights from speeches, and links to the official Hansard." },
                                         { icon: "🔍", label: "Search", desc: "Use the search boxes to find specific topics or keywords in the debate text." },
-                                        { icon: "👤", label: "States member filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
+                                        { icon: "👤", label: "Deputy filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
                                       ].map((item) => (
                                         <div key={item.label} className="flex gap-3 rounded-xl bg-slate-50 p-3">
                                           <span className="text-xl">{item.icon}</span>
