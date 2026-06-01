@@ -569,6 +569,7 @@ function DeputyVoteTimeline({
       />
 
       {filtered.length ? (
+        <>
         <div className="mt-3 pr-2 space-y-2">
           {(showAllVotes || voteQ.trim() ? filtered : filtered.slice(0, VOTES_DEFAULT)).map((r) => (
             <div key={r.vote_id} className={`rounded-xl border p-3
@@ -631,6 +632,7 @@ function DeputyVoteTimeline({
             </button>
           )
         ) : null}
+        </>
       ) : (
         <div className="mt-3 text-sm text-slate-600">No recorded votes found for this deputy (in votes.json).</div>
       )}
