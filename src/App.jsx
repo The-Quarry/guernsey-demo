@@ -2118,6 +2118,39 @@ const votesByPerson = useMemo(() => {
                           This page summarises and links to official States of Guernsey material. It does not replace the official record.
                         </div>
 
+                        {/* ===== FULL SPEECH MODAL ===== */}
+                        {openSpeech ? (
+                          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4">
+                            <div className="w-full max-w-3xl max-h-[85vh] overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-slate-200 flex flex-col">
+                              {/* Header */}
+                              <div className="flex items-start justify-between gap-3 border-b px-5 py-4">
+                                <div className="min-w-0">
+                                  <div className="text-sm font-semibold text-slate-900">Full speech</div>
+                                  <div className="mt-1 text-xs text-slate-600">
+                                    {openSpeech.person_name} • {openSpeech.meeting_date} • {openSpeech.evidence_locator}
+                                  </div>
+                                </div>
+
+                                <button
+                                  onClick={() => setOpenSpeech(null)}
+                                  className="shrink-0 rounded-xl px-3 py-2 text-sm font-medium text-slate-700 ring-1 ring-inset ring-slate-200 hover:bg-slate-50"
+                                >
+                                  Close
+                                </button>
+                              </div>
+
+                              {/* Body */}
+                              <div className="flex-1 overflow-auto px-5 py-4 text-base leading-relaxed text-slate-800 whitespace-pre-wrap">
+                                {getHansardTextForSpeech(openSpeech)}
+                              </div>
+
+                              {/* Footer */}
+                              <div className="border-t px-5 py-3 text-xs text-slate-500">
+                                Source: Hansard • {openSpeech.evidence_locator}
+                              </div>
+                            </div>
+                          </div>
+                        ) : null}
                 </>
               );
             })()
@@ -2125,7 +2158,6 @@ const votesByPerson = useMemo(() => {
       </div>
       </div>
     </div>
-  </div>
 
                         {showIntro ? (
                           <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-3 sm:p-6 overflow-y-auto">
@@ -2286,39 +2318,6 @@ const votesByPerson = useMemo(() => {
                           </div>
                         ) : null}
 
-                        {/* ===== FULL SPEECH MODAL ===== */}
-                        {openSpeech ? (
-                          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4">
-                            <div className="w-full max-w-3xl max-h-[85vh] overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-slate-200 flex flex-col">
-                              {/* Header */}
-                              <div className="flex items-start justify-between gap-3 border-b px-5 py-4">
-                                <div className="min-w-0">
-                                  <div className="text-sm font-semibold text-slate-900">Full speech</div>
-                                  <div className="mt-1 text-xs text-slate-600">
-                                    {openSpeech.person_name} • {openSpeech.meeting_date} • {openSpeech.evidence_locator}
-                                  </div>
-                                </div>
-
-                                <button
-                                  onClick={() => setOpenSpeech(null)}
-                                  className="shrink-0 rounded-xl px-3 py-2 text-sm font-medium text-slate-700 ring-1 ring-inset ring-slate-200 hover:bg-slate-50"
-                                >
-                                  Close
-                                </button>
-                              </div>
-
-                              {/* Body */}
-                              <div className="flex-1 overflow-auto px-5 py-4 text-base leading-relaxed text-slate-800 whitespace-pre-wrap">
-                                {getHansardTextForSpeech(openSpeech)}
-                              </div>
-
-                              {/* Footer */}
-                              <div className="border-t px-5 py-3 text-xs text-slate-500">
-                                Source: Hansard • {openSpeech.evidence_locator}
-                              </div>
-                            </div>
-                          </div>
-                        ) : null}
-
+  </div>
   );
 }
