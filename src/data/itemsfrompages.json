@@ -201,7 +201,7 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Proposed by Gollop/Matthews to increase the income tax allowance by £5,525 if GST came in."
+    "notes": "Proposed by Gollop/Matthews to increase the income tax allowance by \u00a35,525 if GST came in."
   },
   {
     "item_key": "p2022_112_a07",
@@ -257,7 +257,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Proposed by Burford/Trott to increase the cost of capital projects which can be approved by P&R without a report going to the States from £3m to £5m."
+    "notes": "Proposed by Burford/Trott to increase the cost of capital projects which can be approved by P&R without a report going to the States from \u00a33m to \u00a35m."
   },
   {
     "item_key": "p2022_112_a09",
@@ -274,7 +274,7 @@
       "status": "withdrawn",
       "label": "Withdrawn"
     },
-    "notes": "Proposed by Helyar/Ferbrache for large spendings cuts in Budgets between 2024 and 2028 should the main proposal be lost or measures introduced not raise at least £50m. to £60m. "
+    "notes": "Proposed by Helyar/Ferbrache for large spendings cuts in Budgets between 2024 and 2028 should the main proposal be lost or measures introduced not raise at least \u00a350m. to \u00a360m. "
   },
   {
     "item_key": "p2022_112_a10",
@@ -364,7 +364,7 @@
       "status": "withdrawn",
       "label": "Withdrawn"
     },
-    "notes": "Proposed by Ferbrache/Helyar setting out three options for the States to choose between, each to generate an extra £85m."
+    "notes": "Proposed by Ferbrache/Helyar setting out three options for the States to choose between, each to generate an extra \u00a385m."
   },
   {
     "item_key": "p2022_112_a14",
@@ -392,7 +392,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Proposed by Soulsby/St Pier for a package of measures without GST, other ways of raising income and a direction to costs reductions by £10m to £16m over 5 years, with a report after the election on if more action is needed."
+    "notes": "Proposed by Soulsby/St Pier for a package of measures without GST, other ways of raising income and a direction to costs reductions by \u00a310m to \u00a316m over 5 years, with a report after the election on if more action is needed."
   },
   {
     "item_key": "p2022_112_a15",
@@ -437,7 +437,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Proposed by Roffey/Bury to further change the amended package if GST was removed to include raising extra £10m. from motoring taxes."
+    "notes": "Proposed by Roffey/Bury to further change the amended package if GST was removed to include raising extra \u00a310m. from motoring taxes."
   },
   {
     "item_key": "p2022_112_a17",
@@ -493,7 +493,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Recognise that Guernsey’s public finances are not sustainable long-term and commits the government to urgently introduce phased spending controls, new revenue measures and reforms—especially to health and care—to secure the island’s future.",
+    "notes": "Recognise that Guernsey\u2019s public finances are not sustainable long-term and commits the government to urgently introduce phased spending controls, new revenue measures and reforms\u2014especially to health and care\u2014to secure the island\u2019s future.",
     "inserted_by_item_key": "p2022_112_a14"
   },
   {
@@ -515,7 +515,7 @@
     "proposition_ref": "P.2022/112 Proposition 2",
     "amendment_ref": "OPTION A (As inserted by Amdt 14 AND amended by Amdts 5 & 17)",
     "phase_type": "proposition_as_amended",
-    "phase_label": "Proposition 2 — Option A (inserted by Amdt 14; Amdts by A5 & A17)",
+    "phase_label": "Proposition 2 \u2014 Option A (inserted by Amdt 14; Amdts by A5 & A17)",
     "sort_order": 202,
     "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/604",
     "outcome": {
@@ -548,14 +548,14 @@
     "proposition_ref": "P.2022/112 Proposition 3",
     "amendment_ref": "Option B as inserted by Amdt 14",
     "phase_type": "proposition_as_amended",
-    "phase_label": "Proposition 3 — Option B (as inserted by A14)",
+    "phase_label": "Proposition 3 \u2014 Option B (as inserted by A14)",
     "sort_order": 203,
     "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/606",
     "outcome": {
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Revenue raising to include £20m. from the corporate sector, a 50% increase in TRP, paid parking, service reductions totalling up £16m.",
+    "notes": "Revenue raising to include \u00a320m. from the corporate sector, a 50% increase in TRP, paid parking, service reductions totalling up \u00a316m.",
     "inserted_by_item_key": "p2022_112_a14"
   },
   {
@@ -577,14 +577,14 @@
     "proposition_ref": "P.2022/112 Proposition 4",
     "amendment_ref": "Option C as inserted by Amdt 14",
     "phase_type": "proposition_as_amended",
-    "phase_label": "Proposition 4 — Option C (as inserted by A14)",
+    "phase_label": "Proposition 4 \u2014 Option C (as inserted by A14)",
     "sort_order": 204,
     "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/609",
     "outcome": {
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Savings of up to £35m. a year by service reductions and raising an extra £20m. from the corporate sector",
+    "notes": "Savings of up to \u00a335m. a year by service reductions and raising an extra \u00a320m. from the corporate sector",
     "inserted_by_item_key": "p2022_112_a14"
   },
   {
@@ -606,7 +606,7 @@
     "proposition_ref": "P.2022/112 Proposition 5",
     "amendment_ref": "Option D as inserted by Amdt 14",
     "phase_type": "proposition_as_amended",
-    "phase_label": "Proposition 5 — Option D (as inserted by A14)",
+    "phase_label": "Proposition 5 \u2014 Option D (as inserted by A14)",
     "sort_order": 205,
     "detail_url": "https://statesvoting-records.gov.gg/Propositions/Details/605",
     "outcome": {
@@ -642,7 +642,7 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "To agree that the challenge of agreeing a single package to resolve the forecast £85M medium term shortfall has proven too politically challenging so needs to be split into two tranches, with the first approved by this Assembly.",
+    "notes": "To agree that the challenge of agreeing a single package to resolve the forecast \u00a385M medium term shortfall has proven too politically challenging so needs to be split into two tranches, with the first approved by this Assembly.",
     "inserted_by_item_key": "p2022_112_a16"
   },
   {
@@ -700,7 +700,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Set up a committee to review how savings could be made to deliver up to £16m. over the next five years.",
+    "notes": "Set up a committee to review how savings could be made to deliver up to \u00a316m. over the next five years.",
     "inserted_by_item_key": "p2022_112_a14"
   },
   {
@@ -816,7 +816,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Look at raising £2m. a year through a visitors' levy.",
+    "notes": "Look at raising \u00a32m. a year through a visitors' levy.",
     "inserted_by_item_key": "p2022_112_a14"
   },
   {
@@ -932,7 +932,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Increase P&R's delegated authority for approval of capital spending to £5m.",
+    "notes": "Increase P&R's delegated authority for approval of capital spending to \u00a35m.",
     "inserted_by_item_key": "p2022_112_a08"
   },
   {
@@ -1153,7 +1153,7 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Proposed by Roffey/de Sausmarez to borrow £150m. to lend to an affordable housing builder."
+    "notes": "Proposed by Roffey/de Sausmarez to borrow \u00a3150m. to lend to an affordable housing builder."
   },
   {
     "item_key": "p2023_101_a03",
@@ -1293,7 +1293,7 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Proposed by Parkinson/McKenna to implement a new territorial system of corporate income tax to raise £30m. a year."
+    "notes": "Proposed by Parkinson/McKenna to implement a new territorial system of corporate income tax to raise \u00a330m. a year."
   },
   {
     "item_key": "p2023_101_a08",
@@ -1414,7 +1414,7 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Proposed by Taylor/St Pier so that more details of the proposed £35m. investment in regeneration of the Bridge come back to the States."
+    "notes": "Proposed by Taylor/St Pier so that more details of the proposed \u00a335m. investment in regeneration of the Bridge come back to the States."
   },
   {
     "item_key": "p2023_101_a12",
@@ -1473,7 +1473,7 @@
     "notes": "To agree that the financial position of the States requires urgent attention and that some temporary action should be taken.",
     "inserted_by_item_key": "p2023_101_a01"
   },
-{
+  {
     "item_key": "p2023_101_prop02_ins_a01",
     "segments": [
       {
@@ -1502,7 +1502,7 @@
     "notes": "To back the tax package which included a GST, income tax and social security reforms.",
     "inserted_by_item_key": "p2023_101_a01"
   },
-{
+  {
     "item_key": "p2023_101_prop03_ins_a01",
     "segments": [
       {
@@ -1531,7 +1531,7 @@
     "notes": "Policy & Resources Committee to return to the States by September 2026 with proposals for addressing the deficit",
     "inserted_by_item_key": "p2023_101_a01"
   },
-{
+  {
     "item_key": "p2023_101_prop04_ins_a01",
     "segments": [
       {
@@ -1557,10 +1557,10 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Agree to spend £520m. on major projects, funded by more borrowing if needed.",
+    "notes": "Agree to spend \u00a3520m. on major projects, funded by more borrowing if needed.",
     "inserted_by_item_key": "p2023_101_a01"
   },
-{
+  {
     "item_key": "p2023_101_prop05_ins_a01",
     "segments": [
       {
@@ -1586,10 +1586,10 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Agree to spend £440m. on major projects, funded by more borrowing if needed, and fund the hospital extension.",
+    "notes": "Agree to spend \u00a3440m. on major projects, funded by more borrowing if needed, and fund the hospital extension.",
     "inserted_by_item_key": "p2023_101_a01"
   },
-{
+  {
     "item_key": "p2023_101_prop06_ins_a06",
     "segments": [
       {
@@ -1615,10 +1615,10 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Agree to spend up to £340m. on major projects, including the hospital extension.",
+    "notes": "Agree to spend up to \u00a3340m. on major projects, including the hospital extension.",
     "inserted_by_item_key": "p2023_101_a06"
   },
-{
+  {
     "item_key": "p2023_101_prop06_opt01_ins_a06",
     "segments": [
       {
@@ -1647,7 +1647,7 @@
     "notes": "Agree that if there is not enough money to fund the capital programme, borrowing should be used.",
     "inserted_by_item_key": "p2023_101_a06"
   },
-{
+  {
     "item_key": "p2023_101_prop06_opt02_ins_a06",
     "segments": [
       {
@@ -1673,10 +1673,10 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Agree that if there is not enough money to fund the capital programme, borrowing should be used, and up to £46m. taken from the Guernsey Health Reserve to pay for work on the hospital.",
+    "notes": "Agree that if there is not enough money to fund the capital programme, borrowing should be used, and up to \u00a346m. taken from the Guernsey Health Reserve to pay for work on the hospital.",
     "inserted_by_item_key": "p2023_101_a06"
   },
-{
+  {
     "item_key": "p2023_101_prop06_opt03_ins_a06",
     "segments": [
       {
@@ -1702,10 +1702,10 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Agree that if there is not enough money to fund the capital programme, borrowing should be used, and up to £90m. taken from the Guernsey Health Reserve to pay for work on the hospital.",
+    "notes": "Agree that if there is not enough money to fund the capital programme, borrowing should be used, and up to \u00a390m. taken from the Guernsey Health Reserve to pay for work on the hospital.",
     "inserted_by_item_key": "p2023_101_a06"
   },
-{
+  {
     "item_key": "p2023_101_prop09B_ins_a11",
     "segments": [
       {
@@ -1731,10 +1731,10 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "For more details of the proposed £35m. investment in regeneration of the Bridge to come back to the States for approval.",
+    "notes": "For more details of the proposed \u00a335m. investment in regeneration of the Bridge to come back to the States for approval.",
     "inserted_by_item_key": "p2023_101_a11"
   },
-{
+  {
     "item_key": "p2023_101_prop09C_ins_a02",
     "segments": [
       {
@@ -1760,10 +1760,10 @@
       "status": "passed",
       "label": "Passed"
     },
-    "notes": "Authorise new borrowing of up to £150m. to lend to an affordable housing builder.",
+    "notes": "Authorise new borrowing of up to \u00a3150m. to lend to an affordable housing builder.",
     "inserted_by_item_key": "p2023_101_a02"
   },
-{
+  {
     "item_key": "p2023_101_prop09D_ins_a05",
     "segments": [
       {
@@ -1792,7 +1792,7 @@
     "notes": "Review the level of spending on major projects and how it compares to GDP.",
     "inserted_by_item_key": "p2023_101_a05"
   },
-{
+  {
     "item_key": "p2023_101_prop09E_ins_a05",
     "segments": [
       {
@@ -1821,7 +1821,7 @@
     "notes": "Investigate new funding methods like public-private partnerships, blended finance, philanthropic and ESG bonds to encourage private investment in major States projects.",
     "inserted_by_item_key": "p2023_101_a05"
   },
-{
+  {
     "item_key": "p2023_101_prop09F_ins_a05",
     "segments": [
       {
@@ -1850,7 +1850,7 @@
     "notes": "Develop ways of monitoring capacity in the construction industry.",
     "inserted_by_item_key": "p2023_101_a05"
   },
-{
+  {
     "item_key": "p2023_101_prop09G_ins_a05",
     "segments": [
       {
@@ -1879,7 +1879,7 @@
     "notes": "Monitor the level of capital expenditure by the private sector to establish a picture of the combined level of capital investment in Guernsey.",
     "inserted_by_item_key": "p2023_101_a05"
   },
-{
+  {
     "item_key": "p2023_101_prop09H_ins_a05",
     "segments": [
       {
@@ -1908,7 +1908,7 @@
     "notes": "Research ways to incentivise more spending by the private sector like tax incentives, R&D grants and regeneration zones.",
     "inserted_by_item_key": "p2023_101_a05"
   },
-{
+  {
     "item_key": "p2023_101_prop10_ins_a01",
     "segments": [
       {
@@ -2035,9 +2035,9 @@
       "status": "defeated",
       "label": "Defeated"
     },
-    "notes": "Proposed by Helyar/Matthews to hold the Budget at 2024 levels (£39.7m. less than proposed)."
+    "notes": "Proposed by Helyar/Matthews to hold the Budget at 2024 levels (\u00a339.7m. less than proposed)."
   },
-   {
+  {
     "item_key": "p2024_91_a03_prop03",
     "segments": [
       {
@@ -2065,7 +2065,7 @@
     },
     "notes": "Proposed by Helyar/Matthews to scrap incremental pay rises for new employees in the public sector."
   },
-    {
+  {
     "item_key": "p2024_91_a03_prop04",
     "segments": [
       {
@@ -2093,7 +2093,7 @@
     },
     "notes": "Proposed by Helyar/Matthews so any post that has been vacant for six months is deleted and only reinstated if shown to be essential."
   },
-    {
+  {
     "item_key": "p2024_91_a03_prop05",
     "segments": [
       {
@@ -2307,7 +2307,7 @@
     "notes": "Set income tax at 22% for two years while drawing up plans for a GST.",
     "inserted_by_item_key": "p2024_91_a22"
   },
-   {
+  {
     "item_key": "p2024_91_prop01B_ins_a22",
     "segments": [
       {
@@ -2394,7 +2394,7 @@
     "notes": "Consult on changes to employee terms and condition changes.",
     "inserted_by_item_key": "p2024_91_a25"
   },
-    {
+  {
     "item_key": "p2024_91_prop33_ins_a03",
     "segments": [
       {
@@ -2423,7 +2423,7 @@
     "notes": "Anyone public sector post vacant for six months should be deleted and only reinstated if shown to be essential.",
     "inserted_by_item_key": "p2024_91_a03"
   },
-      {
+  {
     "item_key": "p2024_91_prop36_ins_a08",
     "segments": [
       {
@@ -2452,7 +2452,6 @@
     "notes": "Proposals to address the deficit need to be back to the States by March 2026.",
     "inserted_by_item_key": "p2024_91_a08"
   },
-  [
   {
     "item_key": "p2026_7_main",
     "segments": [],
@@ -2525,5 +2524,4 @@
     "notes": "Proposed by Deputies Haley Camp and Mark Helyar. Sought to insert an additional proposition directing P&R to immediately cease all work on any form of territorial corporation tax \u2014 a rival revenue-raising option under study \u2014 and to amend the Tax Review Sub-committee's terms of reference to explicitly exclude it. Defeated 12\u201323.",
     "meeting_key": "m_2026_02_26"
   }
-]
 ]
