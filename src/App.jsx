@@ -1358,7 +1358,7 @@ const votesByPerson = useMemo(() => {
 
           <div className="rounded-2xl bg-white px-4 py-3 shadow-sm ring-1 ring-inset ring-slate-200 flex items-center gap-3">
             <div className="text-xl font-semibold text-slate-900">{kpis.totalPeople}</div>
-            <div className="text-sm text-slate-600">Deputies included</div>
+            <div className="text-sm text-slate-600">States members </div>
           </div>
         </div>
 
@@ -1819,9 +1819,9 @@ const votesByPerson = useMemo(() => {
                             value={personFilter}
                             onChange={(e) => setPersonFilter(e.target.value)}
                             className="w-full sm:w-56 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
-                            title="Filter by deputy"
+                            title="Filter by States member"
                           >
-                            <option value="all">Filter by deputy…</option>
+                            <option value="all">Filter by States member…</option>
                             {people.map((p) => (
                               <option key={p.person_id} value={p.person_id}>
                                 {p.name}
@@ -2278,7 +2278,7 @@ const votesByPerson = useMemo(() => {
                                         { icon: "👈", label: "Left panel", desc: "Choose which debate or amendment to look at. Topics are grouped by meeting date." },
                                         { icon: "📰", label: "Right panel", desc: "See the vote result, curated highlights from speeches, and links to the official Hansard." },
                                         { icon: "🔍", label: "Search", desc: "Use the search boxes to find specific topics or keywords in the debate text." },
-                                        { icon: "👤", label: "Deputy filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
+                                        { icon: "👤", label: "States member filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
                                       ].map((item) => (
                                         <div key={item.label} className="flex gap-3 rounded-xl bg-slate-50 p-3">
                                           <span className="text-xl">{item.icon}</span>
