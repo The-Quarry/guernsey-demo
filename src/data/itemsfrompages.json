@@ -2461,7 +2461,7 @@
         "start_page": 5,
         "end_page": 82,
         "start_speech_id": "sp_m_2026_02_26_00001",
-        "end_speech_id": "sp_m_2026_02_26_00043",
+        "end_speech_id": "sp_m_2026_02_26_00082",
         "trigger": "heading",
         "confidence": "high"
       }
@@ -2519,7 +2519,7 @@
         "start_page": 14,
         "end_page": 35,
         "start_speech_id": "sp_m_2026_02_26_00017",
-        "end_speech_id": "sp_m_2026_02_26_00029",
+        "end_speech_id": "sp_m_2026_02_26_00057",
         "trigger": "amendment",
         "confidence": "high"
       }
@@ -2548,7 +2548,7 @@
         "start_page": 36,
         "end_page": 52,
         "start_speech_id": "sp_m_2026_02_26_00030",
-        "end_speech_id": "sp_m_2026_02_26_00036",
+        "end_speech_id": "sp_m_2026_02_26_00066",
         "trigger": "amendment",
         "confidence": "high"
       }

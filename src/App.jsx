@@ -1744,11 +1744,13 @@ const votesByPerson = useMemo(() => {
                     {selectedItem && (
                       <div className="mb-3 flex items-center gap-1.5 text-xs text-slate-500 flex-wrap">
                         <span className="font-medium text-slate-700">
-                          {["m_2023_01_25","m_2023_01_26","m_2023_01_27","m_2023_02_15","m_2023_02_16","m_2023_02_17"]
-                            .some(k => (selectedItem.segments||[]).some(s=>s.meeting_key===k))
+                          {["m_2026_02_25","m_2026_02_26"].includes(selectedItem.meeting_key)
+                            ? "February 2026"
+                            : ["m_2023_01_25","m_2023_01_26","m_2023_01_27","m_2023_02_15","m_2023_02_16","m_2023_02_17"]
+                              .some(k => (selectedItem.segments||[]).some(s=>s.meeting_key===k))
                             ? "Jan/Feb 2023"
                             : ["m_2023_10_17","m_2023_10_18","m_2023_10_19","m_2023_10_20"]
-                            .some(k => (selectedItem.segments||[]).some(s=>s.meeting_key===k))
+                              .some(k => (selectedItem.segments||[]).some(s=>s.meeting_key===k))
                             ? "October 2023"
                             : "Budget 2025"}
                         </span>
