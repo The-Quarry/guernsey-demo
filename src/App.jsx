@@ -676,6 +676,20 @@ export default function App() {
       summary: "Use our Deficit Calculator to see how the £98m. deficit could be filled and how much money you are left for big infrastructure projects... .",
       embedUrl: "",
     },
+        {
+      id: "coverage-7",
+      headline: "Tax reform decision in sight as sub-committee recommends no major changes to corporate regime and pressing on with GST-plus instead",
+      url: "https://www.thequarry.media/tax-reform-decision-in-sight-as-sub-committee-recommends-no-major-changes-to-corporate-regime-and-pressing-on-with-gst-plus-instead/",
+      summary: "13 May 2026: Sub-committee says fundamental corporate tax reform would present considerable economic risk and cannot deliver sufficient revenues.",
+      embedUrl: "",
+    },
+    {
+      id: "coverage-8",
+      headline: "Government's revision of social security proposals in GST+ welcomed by Chamber",
+      url: "https://www.thequarry.media/governments-revision-of-social-security-proposals-in-gst-welcomed-by-chamber/",
+      summary: "21 May 2026: Guernsey Chamber of Commerce welcomes Government's revised approach to social security changes within GST+ package.",
+      embedUrl: "",
+    },
   ];
   
   const evidenceSectionRef = React.useRef(null);
