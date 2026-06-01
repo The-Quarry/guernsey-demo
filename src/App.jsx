@@ -166,8 +166,15 @@ function ItemCard({ it, meeting, isSelected, onSelect, indent = false, vote }) {
 
   // Left-rail description line:
   // - main: existing notes summary
-  // - child: show your user-friendly notes (what it does)
+  // - amendment: split notes into bold first sentence + rest
   const description = hasNotes ? it.notes.trim() : null;
+  const firstSentenceEnd = description ? description.search(/[.!?](\s|$)/) : -1;
+  const descSummary = (!isMain && description && firstSentenceEnd > 0)
+    ? description.slice(0, firstSentenceEnd + 1)
+    : null;
+  const descRest = (!isMain && descSummary)
+    ? description.slice(firstSentenceEnd + 1).trim()
+    : null;
 
   return (
     <div
@@ -186,13 +193,29 @@ function ItemCard({ it, meeting, isSelected, onSelect, indent = false, vote }) {
           {title}
         </div>
 
-        {description ? (
+        {descSummary ? (
+          <div className="mt-2 text-sm font-semibold leading-snug text-slate-800">
+            {descSummary}
+          </div>
+        ) : null}
+
+        {description && !descSummary ? (
           <div
             className={`mt-2 text-base leading-relaxed text-slate-800 ${
               isSelected ? "" : "line-clamp-4 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-6 after:bg-gradient-to-t after:from-white"
             }`}
           >
             {description}
+          </div>
+        ) : null}
+
+        {descRest ? (
+          <div
+            className={`mt-1 text-sm leading-relaxed text-slate-600 ${
+              isSelected ? "" : "line-clamp-3 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-6 after:bg-gradient-to-t after:from-white"
+            }`}
+          >
+            {descRest}
           </div>
         ) : null}
       </div>
@@ -1055,14 +1078,15 @@ const votesByPerson = useMemo(() => {
 
       const grouped = new Map();
       for (const row of rows) {
-        if (!grouped.has(row.meeting_key)) {
-          grouped.set(row.meeting_key, {
+        const groupKey = row.meeting_date || row.meeting_key || "unknown";
+        if (!grouped.has(groupKey)) {
+          grouped.set(groupKey, {
             meeting_key: row.meeting_key,
             meeting_date: row.meeting_date,
             items: [],
           });
         }
-        grouped.get(row.meeting_key).items.push(row);
+        grouped.get(groupKey).items.push(row);
       }
 
       return Array.from(grouped.values()).sort((a, b) =>
@@ -1797,7 +1821,7 @@ const votesByPerson = useMemo(() => {
                             className="w-full sm:w-56 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
                             title="Filter by deputy"
                           >
-                            <option value="all">All people</option>
+                            <option value="all">Filter by deputy…</option>
                             {people.map((p) => (
                               <option key={p.person_id} value={p.person_id}>
                                 {p.name}
@@ -1838,7 +1862,7 @@ const votesByPerson = useMemo(() => {
                             placeholder={
                               evidenceMode === "person"
                                 ? "Filter highlights / votes…"
-                                : "Search this topic (Hansard + highlights)…"
+                                : "Search speeches & highlights…"
                             }
                             className="w-full sm:w-64 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
                           />
@@ -2055,8 +2079,8 @@ const votesByPerson = useMemo(() => {
                                 >
                                   <div className="flex flex-wrap items-center gap-2">
                                     <span className="text-sm font-semibold text-slate-900">{h.person_name}</span>
-                                    <span className="text-sm text-slate-500">{h.meeting_date}</span>
-                                    <Pill>Highlight</Pill>
+                                    <span className="text-sm text-slate-500">{formatDateLong(h.meeting_date)}</span>
+                                    {h.topic_tags?.length ? <Pill>{h.topic_tags[0].replace(/_/g, ' ')}</Pill> : null}
                                   </div>
 
                                   {evidenceMode === "person" ? (
