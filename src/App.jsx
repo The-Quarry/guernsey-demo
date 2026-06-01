@@ -66,6 +66,8 @@ function OutcomePill({ outcome }) {
       ? "warn"
       : outcome.status === "not_moved"
       ? "warn"
+      : outcome.status === "not_laid"
+      ? "warn" 
       : "";
 
   return <Pill tone={tone}>{outcome.label || outcome.status}</Pill>;
@@ -1343,6 +1345,12 @@ const votesByPerson = useMemo(() => {
                 >
                   <div className="max-h-[calc(100vh-14rem)] overflow-y-auto pr-2 space-y-3">
                     {[
+                      {
+                        label: "February 2026",
+                        groups: groupedItems.filter(({ main }) =>
+                          ["m_2026_02_25", "m_2026_02_26"].includes(main.meeting_key)
+                        ),
+                      },
                       {
                         label: "November 2024",
                         groups: groupedItems.filter(({ main }) =>

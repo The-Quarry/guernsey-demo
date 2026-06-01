@@ -130,12 +130,223 @@
     "is_incumbent": true,
     "aliases": ["Inder", "N. Inder"]
   },
+    {
+    "person_id": "haley_camp",
+    "name": "Haley Camp",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Camp",
+      "H. Camp"
+    ]
+  },
   {
-  "person_id": "andrea_dudley_owen",
-  "name": "Andrea Dudley-Owen",
-  "type": "deputy",
-  "is_incumbent": false,
-  "aliases": ["Dudley-Owen", "A. Dudley-Owen"]
+    "person_id": "garry_collins",
+    "name": "Garry Collins",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Collins",
+      "G. Collins"
+    ]
+  },
+  {
+    "person_id": "rob_curgenven",
+    "name": "Rob Curgenven",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Curgenven",
+      "R. Curgenven"
+    ]
+  },
+  {
+    "person_id": "david_dorrity",
+    "name": "David Dorrity",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Dorrity",
+      "D. Dorrity"
+    ]
+  },
+  {
+    "person_id": "david_goy",
+    "name": "David Goy",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Goy",
+      "D. Goy"
+    ]
+  },
+  {
+    "person_id": "sarah_hansmann_rouxel",
+    "name": "Sarah Hansmann Rouxel",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Hansmann Rouxel",
+      "S. Hansmann Rouxel"
+    ]
+  },
+  {
+    "person_id": "edward_hill",
+    "name": "Edward Hill",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Hill",
+      "E. Hill"
+    ]
+  },
+  {
+    "person_id": "rhona_humphreys",
+    "name": "Rhona Humphreys",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Humphreys",
+      "R. Humphreys"
+    ]
+  },
+  {
+    "person_id": "lee_van_katwyk",
+    "name": "Lee Van Katwyk",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Van Katwyk",
+      "Katwyk",
+      "L. Van Katwyk"
+    ]
+  },
+  {
+    "person_id": "bruno_kay_mouat",
+    "name": "Bruno Kay-Mouat",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Kay-Mouat",
+      "B. Kay-Mouat"
+    ]
+  },
+  {
+    "person_id": "marc_laine",
+    "name": "Marc Laine",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Laine",
+      "M. Laine"
+    ]
+  },
+  {
+    "person_id": "munazza_malik",
+    "name": "Munazza Malik",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Malik",
+      "M. Malik"
+    ]
+  },
+  {
+    "person_id": "andrew_niles",
+    "name": "Andrew Niles",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Niles",
+      "A. Niles"
+    ]
+  },
+  {
+    "person_id": "george_oswald",
+    "name": "George Oswald",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Oswald",
+      "G. Oswald"
+    ]
+  },
+  {
+    "person_id": "jayne_ozanne",
+    "name": "Jayne Ozanne",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Ozanne",
+      "J. Ozanne"
+    ]
+  },
+  {
+    "person_id": "sally_rochester",
+    "name": "Sally Rochester",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Rochester",
+      "S. Rochester"
+    ]
+  },
+  {
+    "person_id": "tom_rylatt",
+    "name": "Tom Rylatt",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Rylatt",
+      "T. Rylatt"
+    ]
+  },
+  {
+    "person_id": "andy_sloan",
+    "name": "Andy Sloan",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Sloan",
+      "A. Sloan"
+    ]
+  },
+  {
+    "person_id": "alexander_snowdon",
+    "name": "Alexander Snowdon",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Snowdon",
+      "A. Snowdon"
+    ]
+  },
+  {
+    "person_id": "jennifer_strachan",
+    "name": "Jennifer Strachan",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Strachan",
+      "J. Strachan"
+    ]
+  },
+  {
+    "person_id": "steve_williams",
+    "name": "Steve Williams",
+    "type": "deputy",
+    "is_incumbent": true,
+    "aliases": [
+      "Williams",
+      "S. Williams"
+    ]
+  },
+  {
+    "person_id": "andrea_dudley_owen",
+    "name": "Andrea Dudley-Owen",
+    "type": "deputy",
+    "is_incumbent": false,
+    "aliases": ["Dudley-Owen", "A. Dudley-Owen"]
   },
   {
     "person_id": "heidi_soulsby",

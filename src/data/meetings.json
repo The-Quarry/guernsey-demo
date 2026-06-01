@@ -19,5 +19,19 @@
     "meeting_label": "States Meeting — 5 November 2024 (Budget 2025)",
     "meeting_url": "https://parliament.gg/parliamentary-business/meetings/meeting-05-11-2024",
     "notes": "Includes the main Budget 2025 debate (P.2024/91) and many amendments. This focuses on the tax/deficit-related parts."
+  },
+  {
+    "meeting_key": "m_2026_02_25",
+    "meeting_date": "2026-02-25",
+    "meeting_label": "States Meeting — 25 February 2026",
+    "meeting_url": "https://parliament.gg/parliamentary-business/meetings/meeting-25-02-2026",
+    "notes": "Debate began on Tax Reform: Workstream 1 (P.2026/7). Sursis proposed by Ozanne & Matthews was not laid."
+  },
+  {
+    "meeting_key": "m_2026_02_26",
+    "meeting_date": "2026-02-26",
+    "meeting_label": "States Meeting — 26 February 2026",
+    "meeting_url": "https://parliament.gg/parliamentary-business/meetings/meeting-25-02-2026",
+    "notes": "Main votes on Tax Reform: Workstream 1. Both amendments lost. Main propositions passed — GST at 5% with food taxed at standard rate."
   }
 ]

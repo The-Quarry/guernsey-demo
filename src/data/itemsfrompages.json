@@ -2451,5 +2451,79 @@
     },
     "notes": "Proposals to address the deficit need to be back to the States by March 2026.",
     "inserted_by_item_key": "p2024_91_a08"
+  },
+  [
+  {
+    "item_key": "p2026_7_main",
+    "segments": [],
+    "parent_item_key": null,
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7",
+    "amendment_ref": "",
+    "phase_type": "main",
+    "phase_label": "Main debate",
+    "sort_order": 0,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "The Policy & Resources Committee's proposition on the parameters of Guernsey's potential tax reform package \u2014 ahead of a final implementation vote expected in summer 2026. Deputies agreed: a 15% standard income tax rate (20% higher rate above \u00a332,400); GST at 5% applied to all foodstuffs at the standard rate; charity supplies exempt from GST; an Essentials Cost Relief Payment of \u00a3520/year (single) or \u00a3860/year (couple) to protect lower-income households; and a requirement that any future GST rate rise must be accompanied by compensatory adjustments to allowances, pensions and benefits.",
+    "meeting_key": "m_2026_02_26"
+  },
+  {
+    "item_key": "p2026_7_sursis",
+    "segments": [],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7 Sursis",
+    "amendment_ref": "Sursis",
+    "phase_type": "amendment",
+    "phase_label": "Sursis (deferral motion)",
+    "sort_order": 1,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7-P2026-7-Sursis",
+    "outcome": {
+      "status": "not_laid",
+      "label": "Not laid"
+    },
+    "notes": "Proposed by Deputies Jayne Ozanne and Aidan Matthews. A sursis is a procedural motion to defer debate on the whole proposition to a later sitting. It was not laid \u2014 meaning it failed to gain enough support to even be put to a vote \u2014 and debate on the main proposition continued.",
+    "meeting_key": "m_2026_02_25"
+  },
+  {
+    "item_key": "p2026_7_amdt1",
+    "segments": [],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7 Amdt 1",
+    "amendment_ref": "Amendment 1",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 1",
+    "sort_order": 2,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7-P2026-7-Amdt-1",
+    "outcome": {
+      "status": "defeated",
+      "label": "Lost"
+    },
+    "notes": "Proposed by Deputies Liam McKenna and Simon Vermeulen. Sought to delete all propositions and replace them with a direction that GST shall not be introduced, rescinding the November 2024 resolutions that set the GST course, and ordering P&R to cease all preparations. A direct attempt to kill GST entirely. Defeated 5\u201331.",
+    "meeting_key": "m_2026_02_26"
+  },
+  {
+    "item_key": "p2026_7_amdt2",
+    "segments": [],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7 Amdt 2",
+    "amendment_ref": "Amendment 2",
+    "phase_type": "amendment",
+    "phase_label": "Proposed change 2",
+    "sort_order": 3,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7-P2026-7-Amdt-2",
+    "outcome": {
+      "status": "defeated",
+      "label": "Lost"
+    },
+    "notes": "Proposed by Deputies Haley Camp and Mark Helyar. Sought to insert an additional proposition directing P&R to immediately cease all work on any form of territorial corporation tax \u2014 a rival revenue-raising option under study \u2014 and to amend the Tax Review Sub-committee's terms of reference to explicitly exclude it. Defeated 12\u201323.",
+    "meeting_key": "m_2026_02_26"
   }
+]
 ]
