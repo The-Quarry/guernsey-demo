@@ -491,6 +491,8 @@ function DeputyVoteTimeline({
   onSelectItemKey,
 }) {
   const [voteQ, setVoteQ] = React.useState("");
+  const [showAllVotes, setShowAllVotes] = React.useState(false);
+  const VOTES_DEFAULT = 5;
 
   const nameVariants = React.useMemo(
     () => personNameVariantsFromPeople(people, personId),
@@ -568,7 +570,7 @@ function DeputyVoteTimeline({
 
       {filtered.length ? (
         <div className="mt-3 pr-2 space-y-2">
-          {filtered.map((r) => (
+          {(showAllVotes || voteQ.trim() ? filtered : filtered.slice(0, VOTES_DEFAULT)).map((r) => (
             <div key={r.vote_id} className={`rounded-xl border p-3
               ${r.bucket === "pour" ? "border-l-4 border-l-emerald-500 bg-emerald-50 ring-1 ring-inset ring-emerald-200" :
                 r.bucket === "contre" ? "border-l-4 border-l-rose-500 bg-rose-50 ring-1 ring-inset ring-rose-200" :
@@ -612,6 +614,23 @@ function DeputyVoteTimeline({
             </div>
           ))}
         </div>
+        {!voteQ.trim() && filtered.length > VOTES_DEFAULT ? (
+          showAllVotes ? (
+            <button
+              onClick={() => setShowAllVotes(false)}
+              className="mt-2 text-sm font-medium text-slate-500 hover:text-slate-700 hover:underline"
+            >
+              Show fewer
+            </button>
+          ) : (
+            <button
+              onClick={() => setShowAllVotes(true)}
+              className="mt-2 text-sm font-medium text-blue-700 hover:text-blue-800 hover:underline"
+            >
+              Show all {filtered.length} votes
+            </button>
+          )
+        ) : null}
       ) : (
         <div className="mt-3 text-sm text-slate-600">No recorded votes found for this deputy (in votes.json).</div>
       )}
@@ -1334,7 +1353,7 @@ const votesByPerson = useMemo(() => {
 
           <div className="rounded-2xl bg-white px-4 py-3 shadow-sm ring-1 ring-inset ring-slate-200 flex items-center gap-3">
             <div className="text-xl font-semibold text-slate-900">{kpis.totalPeople}</div>
-            <div className="text-sm text-slate-600">Deputies included</div>
+            <div className="text-sm text-slate-600">States members included</div>
           </div>
         </div>
 
@@ -1795,7 +1814,7 @@ const votesByPerson = useMemo(() => {
                             value={personFilter}
                             onChange={(e) => setPersonFilter(e.target.value)}
                             className="w-full sm:w-56 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
-                            title="Filter by deputy"
+                            title="Filter by States member"
                           >
                             <option value="all">All people</option>
                             {people.map((p) => (
@@ -1827,7 +1846,7 @@ const votesByPerson = useMemo(() => {
                                 }`}
                                 type="button"
                               >
-                                Deputy timeline
+                                States member timeline
                               </button>
                             </div>
                           ) : null}
@@ -2254,7 +2273,7 @@ const votesByPerson = useMemo(() => {
                                         { icon: "👈", label: "Left panel", desc: "Choose which debate or amendment to look at. Topics are grouped by meeting date." },
                                         { icon: "📰", label: "Right panel", desc: "See the vote result, curated highlights from speeches, and links to the official Hansard." },
                                         { icon: "🔍", label: "Search", desc: "Use the search boxes to find specific topics or keywords in the debate text." },
-                                        { icon: "👤", label: "Deputy filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
+                                        { icon: "👤", label: "States member filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
                                       ].map((item) => (
                                         <div key={item.label} className="flex gap-3 rounded-xl bg-slate-50 p-3">
                                           <span className="text-xl">{item.icon}</span>
