@@ -2149,9 +2149,25 @@ const votesByPerson = useMemo(() => {
                                   
                    </Section>
                   </div>
-                    <div className="mt-6 text-xs text-slate-500">
-                          This page summarises and links to official States of Guernsey material. It does not replace the official record.
+                    <div className="mt-6 space-y-3">
+                      <div className="rounded-2xl bg-slate-900 px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                        <div>
+                          <div className="text-sm font-semibold text-white">This tracker is free — help us keep it that way</div>
+                          <div className="mt-0.5 text-xs text-slate-400">Built by The Quarry, independent journalism for Guernsey. Sign up to support our work and get coverage of the summer tax vote direct to your inbox.</div>
                         </div>
+                        <a
+                          href="https://www.thequarry.media/#/portal"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="shrink-0 rounded-xl bg-yellow-300 px-4 py-2 text-sm font-bold text-slate-900 hover:bg-yellow-200 transition-colors text-center"
+                        >
+                          Sign up →
+                        </a>
+                      </div>
+                      <div className="text-xs text-slate-400">
+                        This page summarises and links to official States of Guernsey material. It does not replace the official record.
+                      </div>
+                    </div>
 
                         {/* ===== FULL SPEECH MODAL ===== */}
                         {openSpeech ? (
