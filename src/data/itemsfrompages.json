@@ -2454,7 +2454,18 @@
   },
   {
     "item_key": "p2026_7_main",
-    "segments": [],
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 5,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00001",
+        "end_speech_id": "sp_m_2026_02_26_00043",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
     "parent_item_key": null,
     "agenda_item_label": "Tax Reform: Workstream 1",
     "proposition_ref": "P.2026/7",
@@ -2472,7 +2483,18 @@
   },
   {
     "item_key": "p2026_7_sursis",
-    "segments": [],
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 9,
+        "end_page": 13,
+        "start_speech_id": "sp_m_2026_02_26_00004",
+        "end_speech_id": "sp_m_2026_02_26_00016",
+        "trigger": "procedural",
+        "confidence": "high"
+      }
+    ],
     "parent_item_key": "p2026_7_main",
     "agenda_item_label": "Tax Reform: Workstream 1",
     "proposition_ref": "P.2026/7 Sursis",
@@ -2490,7 +2512,18 @@
   },
   {
     "item_key": "p2026_7_amdt1",
-    "segments": [],
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 14,
+        "end_page": 35,
+        "start_speech_id": "sp_m_2026_02_26_00017",
+        "end_speech_id": "sp_m_2026_02_26_00029",
+        "trigger": "amendment",
+        "confidence": "high"
+      }
+    ],
     "parent_item_key": "p2026_7_main",
     "agenda_item_label": "Tax Reform: Workstream 1",
     "proposition_ref": "P.2026/7 Amdt 1",
@@ -2508,7 +2541,18 @@
   },
   {
     "item_key": "p2026_7_amdt2",
-    "segments": [],
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 36,
+        "end_page": 52,
+        "start_speech_id": "sp_m_2026_02_26_00030",
+        "end_speech_id": "sp_m_2026_02_26_00036",
+        "trigger": "amendment",
+        "confidence": "high"
+      }
+    ],
     "parent_item_key": "p2026_7_main",
     "agenda_item_label": "Tax Reform: Workstream 1",
     "proposition_ref": "P.2026/7 Amdt 2",
