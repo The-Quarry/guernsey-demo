@@ -1615,6 +1615,21 @@ const votesByPerson = useMemo(() => {
                       ) : null}
                     </div>
                   ))}
+
+                  <div className="rounded-2xl bg-slate-900 px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                    <div>
+                      <div className="text-sm font-semibold text-white">More coverage coming as the summer vote approaches</div>
+                      <div className="mt-0.5 text-xs text-slate-400">Sign up to The Quarry to get independent Guernsey journalism direct to your inbox — including our full analysis of the tax reform decision.</div>
+                    </div>
+                    <a
+                      href="https://www.thequarry.media/#/portal"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="shrink-0 rounded-xl bg-yellow-300 px-4 py-2 text-sm font-bold text-slate-900 hover:bg-yellow-200 transition-colors text-center"
+                    >
+                      Sign up →
+                    </a>
+                  </div>
                 </div>
               </Section>
             ) : tab === "approved" ? (
