@@ -491,8 +491,6 @@ function DeputyVoteTimeline({
   onSelectItemKey,
 }) {
   const [voteQ, setVoteQ] = React.useState("");
-  const [showAllVotes, setShowAllVotes] = React.useState(false);
-  const VOTES_DEFAULT = 5;
 
   const nameVariants = React.useMemo(
     () => personNameVariantsFromPeople(people, personId),
@@ -569,9 +567,8 @@ function DeputyVoteTimeline({
       />
 
       {filtered.length ? (
-        <>
-        <div className="mt-3 pr-2 space-y-2">
-          {(showAllVotes || voteQ.trim() ? filtered : filtered.slice(0, VOTES_DEFAULT)).map((r) => (
+        <div className="mt-3 max-h-[34vh] overflow-y-auto pr-2 space-y-2">
+          {filtered.map((r) => (
             <div key={r.vote_id} className={`rounded-xl border p-3
               ${r.bucket === "pour" ? "border-l-4 border-l-emerald-500 bg-emerald-50 ring-1 ring-inset ring-emerald-200" :
                 r.bucket === "contre" ? "border-l-4 border-l-rose-500 bg-rose-50 ring-1 ring-inset ring-rose-200" :
@@ -592,7 +589,7 @@ function DeputyVoteTimeline({
                   r.bucket === "ne_vote_pas" ? "~ Abstained" :
                   r.bucket === "absent" ? "Absent" : r.bucket}
                 </span>
-                <span className="text-xs text-slate-500">{formatDateLong(r.meeting_date)}</span>
+                <span className="text-xs text-slate-500">{r.meeting_date}</span>
                 {r.amendment_ref ? <Pill tone="warn">{r.amendment_ref}</Pill> : null}
               </div>
 
@@ -615,24 +612,6 @@ function DeputyVoteTimeline({
             </div>
           ))}
         </div>
-        {!voteQ.trim() && filtered.length > VOTES_DEFAULT ? (
-          showAllVotes ? (
-            <button
-              onClick={() => setShowAllVotes(false)}
-              className="mt-2 text-sm font-medium text-slate-500 hover:text-slate-700 hover:underline"
-            >
-              Show fewer
-            </button>
-          ) : (
-            <button
-              onClick={() => setShowAllVotes(true)}
-              className="mt-2 text-sm font-medium text-blue-700 hover:text-blue-800 hover:underline"
-            >
-              Show all {filtered.length} votes
-            </button>
-          )
-        ) : null}
-        </>
       ) : (
         <div className="mt-3 text-sm text-slate-600">No recorded votes found for this deputy (in votes.json).</div>
       )}
@@ -1355,7 +1334,7 @@ const votesByPerson = useMemo(() => {
 
           <div className="rounded-2xl bg-white px-4 py-3 shadow-sm ring-1 ring-inset ring-slate-200 flex items-center gap-3">
             <div className="text-xl font-semibold text-slate-900">{kpis.totalPeople}</div>
-            <div className="text-sm text-slate-600">States members included</div>
+            <div className="text-sm text-slate-600">Deputies included</div>
           </div>
         </div>
 
@@ -1615,21 +1594,6 @@ const votesByPerson = useMemo(() => {
                       ) : null}
                     </div>
                   ))}
-
-                  <div className="rounded-2xl bg-slate-900 px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                    <div>
-                      <div className="text-sm font-semibold text-white">More coverage coming as the summer vote approaches</div>
-                      <div className="mt-0.5 text-xs text-slate-400">Sign up to The Quarry to get independent Guernsey journalism direct to your inbox — including our full analysis of the tax reform decision.</div>
-                    </div>
-                    <a
-                      href="https://www.thequarry.media/#/portal"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="shrink-0 rounded-xl bg-yellow-300 px-4 py-2 text-sm font-bold text-slate-900 hover:bg-yellow-200 transition-colors text-center"
-                    >
-                      Sign up →
-                    </a>
-                  </div>
                 </div>
               </Section>
             ) : tab === "approved" ? (
@@ -1831,7 +1795,7 @@ const votesByPerson = useMemo(() => {
                             value={personFilter}
                             onChange={(e) => setPersonFilter(e.target.value)}
                             className="w-full sm:w-56 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
-                            title="Filter by States member"
+                            title="Filter by deputy"
                           >
                             <option value="all">All people</option>
                             {people.map((p) => (
@@ -1863,7 +1827,7 @@ const votesByPerson = useMemo(() => {
                                 }`}
                                 type="button"
                               >
-                                States member timeline
+                                Deputy timeline
                               </button>
                             </div>
                           ) : null}
@@ -2164,25 +2128,9 @@ const votesByPerson = useMemo(() => {
                                   
                    </Section>
                   </div>
-                    <div className="mt-6 space-y-3">
-                      <div className="rounded-2xl bg-slate-900 px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                        <div>
-                          <div className="text-sm font-semibold text-white">This tracker is free — help us keep it that way</div>
-                          <div className="mt-0.5 text-xs text-slate-400">Built by The Quarry, independent journalism for Guernsey. Sign up to support our work and get coverage of the summer tax vote direct to your inbox.</div>
+                    <div className="mt-6 text-xs text-slate-500">
+                          This page summarises and links to official States of Guernsey material. It does not replace the official record.
                         </div>
-                        <a
-                          href="https://www.thequarry.media/#/portal"
-                          target="_blank"
-                          rel="noreferrer"
-                          className="shrink-0 rounded-xl bg-yellow-300 px-4 py-2 text-sm font-bold text-slate-900 hover:bg-yellow-200 transition-colors text-center"
-                        >
-                          Sign up →
-                        </a>
-                      </div>
-                      <div className="text-xs text-slate-400">
-                        This page summarises and links to official States of Guernsey material. It does not replace the official record.
-                      </div>
-                    </div>
 
                         {/* ===== FULL SPEECH MODAL ===== */}
                         {openSpeech ? (
@@ -2306,7 +2254,7 @@ const votesByPerson = useMemo(() => {
                                         { icon: "👈", label: "Left panel", desc: "Choose which debate or amendment to look at. Topics are grouped by meeting date." },
                                         { icon: "📰", label: "Right panel", desc: "See the vote result, curated highlights from speeches, and links to the official Hansard." },
                                         { icon: "🔍", label: "Search", desc: "Use the search boxes to find specific topics or keywords in the debate text." },
-                                        { icon: "👤", label: "States member filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
+                                        { icon: "👤", label: "Deputy filter", desc: "Select a States member to see everything they said and how they voted across all three debates." },
                                       ].map((item) => (
                                         <div key={item.label} className="flex gap-3 rounded-xl bg-slate-50 p-3">
                                           <span className="text-xl">{item.icon}</span>
