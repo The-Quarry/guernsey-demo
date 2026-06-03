@@ -2577,5 +2577,173 @@
     },
     "notes": "Proposed by Deputies Haley Camp and Mark Helyar. Sought to insert an additional proposition directing P&R to immediately cease all work on any form of territorial corporation tax — a rival revenue-raising option under study — and to amend the Tax Review Sub-committee's terms of reference to explicitly exclude it. Defeated 12–23.",
     "meeting_key": "m_2026_02_26"
+  },
+  {
+    "item_key": "p2026_7_prop1a",
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 53,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00037",
+        "end_speech_id": "sp_m_2026_02_26_00082",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7",
+    "amendment_ref": "Proposition 1a",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 1a",
+    "sort_order": 10,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "To agree the individual standard rate of Income Tax shall be reduced to 15%, with 20% becoming the higher rate above £32,400."
+  },
+  {
+    "item_key": "p2026_7_prop1b",
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 53,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00037",
+        "end_speech_id": "sp_m_2026_02_26_00082",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7",
+    "amendment_ref": "Proposition 1b",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 1b",
+    "sort_order": 11,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "To agree GST at a standard rate of 5% applied to all foodstuffs, with an Essentials Cost Relief Payment of £520/year (single) or £860/year (couple)."
+  },
+  {
+    "item_key": "p2026_7_prop1def",
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 53,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00037",
+        "end_speech_id": "sp_m_2026_02_26_00082",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7",
+    "amendment_ref": "Propositions 1d, 1e and 1f",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Propositions 1d, 1e and 1f",
+    "sort_order": 12,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "To agree charity supplies exempt from GST; that the International Services Entity scheme incorporate international insurance services and e-gaming; and that other exempt and zero-rated supplies be as outlined in Section 8."
+  },
+  {
+    "item_key": "p2026_7_prop2",
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 53,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00037",
+        "end_speech_id": "sp_m_2026_02_26_00082",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7",
+    "amendment_ref": "Proposition 2",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 2",
+    "sort_order": 13,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "To agree that any future increase in the standard rate of GST must include compensatory adjustments to Income Tax allowances, the higher rate threshold, the Essentials Cost Relief Payment, and pension and benefit rates."
+  },
+  {
+    "item_key": "p2026_7_prop3",
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 53,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00037",
+        "end_speech_id": "sp_m_2026_02_26_00082",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7",
+    "amendment_ref": "Proposition 3",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 3",
+    "sort_order": 14,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "To direct Policy & Resources to give detailed consideration to requiring a two-thirds parliamentary majority to approve any future increase in the rate of GST."
+  },
+  {
+    "item_key": "p2026_7_prop4",
+    "segments": [
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 53,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00037",
+        "end_speech_id": "sp_m_2026_02_26_00082",
+        "trigger": "heading",
+        "confidence": "high"
+      }
+    ],
+    "parent_item_key": "p2026_7_main",
+    "agenda_item_label": "Tax Reform: Workstream 1",
+    "proposition_ref": "P.2026/7",
+    "amendment_ref": "Proposition 4",
+    "phase_type": "proposition_as_amended",
+    "phase_label": "Proposition 4",
+    "sort_order": 15,
+    "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7",
+    "outcome": {
+      "status": "passed",
+      "label": "Passed"
+    },
+    "notes": "To direct the preparation of such legislation as may be necessary to give effect to the above decisions."
   }
 ]
