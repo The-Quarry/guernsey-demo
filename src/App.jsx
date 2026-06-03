@@ -124,8 +124,10 @@ function primaryLabelForItem(it) {
   }
 
   if (it.phase_type === "proposition_as_amended") {
+    if (it.phase_label && !it.phase_label.match(/^(Main|Amended)/i)) {
+      return it.phase_label;
+    }
     const n = propositionNumber(it.proposition_ref);
-    // Optional: if your phase_label contains "Option A/B/C" you can surface that
     const opt = String(it.phase_label || "").match(/Option\s+[A-Z]/i)?.[0] || null;
     return `Amended proposition ${n || ""}${opt ? ` (${opt})` : ""}`.trim();
   }
