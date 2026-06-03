@@ -5554,5 +5554,411 @@
         "Humphreys, Rhona"
       ]
     }
+  },
+  {
+    "vote_id": "m_2026_02_26__p2026_7_prop1a__1",
+    "item_key": "p2026_7_prop1a",
+    "meeting_key": "m_2026_02_26",
+    "meeting_date": "2026-02-26",
+    "label": "Proposition 1a — Income Tax standard rate 15%",
+    "result": {
+      "method": "recorded"
+    },
+    "source_url": "https://statesvoting-records.gov.gg/Meetings/Details/77",
+    "tallies": {
+      "pour": 31,
+      "contre": 4,
+      "ne_vote_pas": 2,
+      "did_not_vote": 0,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "Camp, Haley",
+        "De Sausmarez, Lindsay",
+        "Dorrity, David",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Hansmann Rouxel, Sarah",
+        "Helyar, Mark",
+        "Hill, Edward",
+        "Inder, Neil",
+        "Kay-Mouat, Bruno",
+        "Kazantseva-Miller, Sasha",
+        "Laine, Marc",
+        "Leadbeater, Marc",
+        "Malik, Munazza",
+        "Matthews, Aidan",
+        "Montague, Paul",
+        "Niles, Andrew",
+        "Oswald, George",
+        "Parkinson, Charles",
+        "Rochester, Sally",
+        "Rylatt, Tom",
+        "Snowdon, Alexander",
+        "St Pier, Gavin",
+        "Strachan, Jennifer",
+        "Van Katwyk, Lee",
+        "Williams, Steve"
+      ],
+      "contre": [
+        "Collins, Garry",
+        "McKenna, Liam",
+        "Ozanne, Jayne",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Curgenven, Rob",
+        "Sloan, Andy"
+      ],
+      "did_not_vote": [],
+      "absent": [
+        "Goy, David",
+        "Humphreys, Rhona"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2026_02_26__p2026_7_prop1b__1",
+    "item_key": "p2026_7_prop1b",
+    "meeting_key": "m_2026_02_26",
+    "meeting_date": "2026-02-26",
+    "label": "Proposition 1b — GST 5% including food",
+    "result": {
+      "method": "recorded"
+    },
+    "source_url": "https://statesvoting-records.gov.gg/Meetings/Details/77",
+    "tallies": {
+      "pour": 24,
+      "contre": 12,
+      "ne_vote_pas": 1,
+      "did_not_vote": 0,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "Collins, Garry",
+        "De Sausmarez, Lindsay",
+        "Dorrity, David",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Hansmann Rouxel, Sarah",
+        "Helyar, Mark",
+        "Inder, Neil",
+        "Kazantseva-Miller, Sasha",
+        "Leadbeater, Marc",
+        "Malik, Munazza",
+        "Montague, Paul",
+        "Niles, Andrew",
+        "Oswald, George",
+        "Parkinson, Charles",
+        "Rochester, Sally",
+        "Rylatt, Tom",
+        "St Pier, Gavin",
+        "Strachan, Jennifer",
+        "Van Katwyk, Lee",
+        "Williams, Steve"
+      ],
+      "contre": [
+        "Camp, Haley",
+        "Curgenven, Rob",
+        "Gollop, John",
+        "Hill, Edward",
+        "Kay-Mouat, Bruno",
+        "Laine, Marc",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Ozanne, Jayne",
+        "Sloan, Andy",
+        "Snowdon, Alexander",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Blin, Chris"
+      ],
+      "did_not_vote": [],
+      "absent": [
+        "Goy, David",
+        "Humphreys, Rhona"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2026_02_26__p2026_7_prop1def__1",
+    "item_key": "p2026_7_prop1def",
+    "meeting_key": "m_2026_02_26",
+    "meeting_date": "2026-02-26",
+    "label": "Propositions 1d, 1e and 1f — Exemptions and ISE scheme",
+    "result": {
+      "method": "recorded"
+    },
+    "source_url": "https://statesvoting-records.gov.gg/Meetings/Details/77",
+    "tallies": {
+      "pour": 32,
+      "contre": 2,
+      "ne_vote_pas": 3,
+      "did_not_vote": 0,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "Camp, Haley",
+        "Collins, Garry",
+        "Curgenven, Rob",
+        "De Sausmarez, Lindsay",
+        "Dorrity, David",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Hansmann Rouxel, Sarah",
+        "Helyar, Mark",
+        "Hill, Edward",
+        "Inder, Neil",
+        "Kay-Mouat, Bruno",
+        "Laine, Marc",
+        "Leadbeater, Marc",
+        "Malik, Munazza",
+        "McKenna, Liam",
+        "Oswald, George",
+        "Parkinson, Charles",
+        "Rochester, Sally",
+        "Rylatt, Tom",
+        "Sloan, Andy",
+        "Snowdon, Alexander",
+        "St Pier, Gavin",
+        "Strachan, Jennifer",
+        "Van Katwyk, Lee",
+        "Vermeulen, Simon",
+        "Williams, Steve"
+      ],
+      "contre": [
+        "Kazantseva-Miller, Sasha",
+        "Niles, Andrew"
+      ],
+      "ne_vote_pas": [
+        "Matthews, Aidan",
+        "Montague, Paul",
+        "Ozanne, Jayne"
+      ],
+      "did_not_vote": [],
+      "absent": [
+        "Goy, David",
+        "Humphreys, Rhona"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2026_02_26__p2026_7_prop2__1",
+    "item_key": "p2026_7_prop2",
+    "meeting_key": "m_2026_02_26",
+    "meeting_date": "2026-02-26",
+    "label": "Proposition 2 — Future GST increases must include income protections",
+    "result": {
+      "method": "recorded"
+    },
+    "source_url": "https://statesvoting-records.gov.gg/Meetings/Details/77",
+    "tallies": {
+      "pour": 27,
+      "contre": 10,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "De Sausmarez, Lindsay",
+        "Dorrity, David",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Hansmann Rouxel, Sarah",
+        "Helyar, Mark",
+        "Hill, Edward",
+        "Inder, Neil",
+        "Leadbeater, Marc",
+        "Malik, Munazza",
+        "Matthews, Aidan",
+        "Montague, Paul",
+        "Niles, Andrew",
+        "Oswald, George",
+        "Ozanne, Jayne",
+        "Parkinson, Charles",
+        "Rochester, Sally",
+        "Rylatt, Tom",
+        "Snowdon, Alexander",
+        "St Pier, Gavin",
+        "Strachan, Jennifer",
+        "Van Katwyk, Lee",
+        "Williams, Steve"
+      ],
+      "contre": [
+        "Camp, Haley",
+        "Collins, Garry",
+        "Curgenven, Rob",
+        "Gollop, John",
+        "Kay-Mouat, Bruno",
+        "Kazantseva-Miller, Sasha",
+        "Laine, Marc",
+        "McKenna, Liam",
+        "Sloan, Andy",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": [
+        "Goy, David",
+        "Humphreys, Rhona"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2026_02_26__p2026_7_prop3__1",
+    "item_key": "p2026_7_prop3",
+    "meeting_key": "m_2026_02_26",
+    "meeting_date": "2026-02-26",
+    "label": "Proposition 3 — Consider two-thirds majority for future GST rate increases",
+    "result": {
+      "method": "recorded"
+    },
+    "source_url": "https://statesvoting-records.gov.gg/Meetings/Details/77",
+    "tallies": {
+      "pour": 23,
+      "contre": 14,
+      "ne_vote_pas": 0,
+      "did_not_vote": 0,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Blin, Chris",
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Curgenven, Rob",
+        "De Sausmarez, Lindsay",
+        "Dorrity, David",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Hansmann Rouxel, Sarah",
+        "Helyar, Mark",
+        "Hill, Edward",
+        "Inder, Neil",
+        "Laine, Marc",
+        "Leadbeater, Marc",
+        "Malik, Munazza",
+        "Montague, Paul",
+        "Ozanne, Jayne",
+        "Parkinson, Charles",
+        "Rylatt, Tom",
+        "Snowdon, Alexander",
+        "St Pier, Gavin",
+        "Van Katwyk, Lee",
+        "Williams, Steve"
+      ],
+      "contre": [
+        "Cameron, Andy",
+        "Camp, Haley",
+        "Collins, Garry",
+        "Gollop, John",
+        "Kay-Mouat, Bruno",
+        "Kazantseva-Miller, Sasha",
+        "Matthews, Aidan",
+        "McKenna, Liam",
+        "Niles, Andrew",
+        "Oswald, George",
+        "Rochester, Sally",
+        "Sloan, Andy",
+        "Strachan, Jennifer",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [],
+      "did_not_vote": [],
+      "absent": [
+        "Goy, David",
+        "Humphreys, Rhona"
+      ]
+    }
+  },
+  {
+    "vote_id": "m_2026_02_26__p2026_7_prop4__1",
+    "item_key": "p2026_7_prop4",
+    "meeting_key": "m_2026_02_26",
+    "meeting_date": "2026-02-26",
+    "label": "Proposition 4 — Direct preparation of necessary legislation",
+    "result": {
+      "method": "recorded"
+    },
+    "source_url": "https://statesvoting-records.gov.gg/Meetings/Details/77",
+    "tallies": {
+      "pour": 31,
+      "contre": 4,
+      "ne_vote_pas": 2,
+      "did_not_vote": 0,
+      "absent": 2
+    },
+    "by_bucket": {
+      "pour": [
+        "Burford, Yvonne",
+        "Bury, Tina",
+        "Cameron, Andy",
+        "Collins, Garry",
+        "Curgenven, Rob",
+        "De Sausmarez, Lindsay",
+        "Dorrity, David",
+        "Falla, Steve",
+        "Gabriel, Adrian",
+        "Gollop, John",
+        "Hansmann Rouxel, Sarah",
+        "Helyar, Mark",
+        "Hill, Edward",
+        "Inder, Neil",
+        "Kay-Mouat, Bruno",
+        "Kazantseva-Miller, Sasha",
+        "Laine, Marc",
+        "Leadbeater, Marc",
+        "Malik, Munazza",
+        "Matthews, Aidan",
+        "Montague, Paul",
+        "Niles, Andrew",
+        "Oswald, George",
+        "Parkinson, Charles",
+        "Rochester, Sally",
+        "Rylatt, Tom",
+        "Snowdon, Alexander",
+        "St Pier, Gavin",
+        "Strachan, Jennifer",
+        "Van Katwyk, Lee",
+        "Williams, Steve"
+      ],
+      "contre": [
+        "Camp, Haley",
+        "McKenna, Liam",
+        "Ozanne, Jayne",
+        "Vermeulen, Simon"
+      ],
+      "ne_vote_pas": [
+        "Blin, Chris",
+        "Sloan, Andy"
+      ],
+      "did_not_vote": [],
+      "absent": [
+        "Goy, David",
+        "Humphreys, Rhona"
+      ]
+    }
   }
 ]
