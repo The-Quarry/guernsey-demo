@@ -120,7 +120,7 @@ function primaryLabelForItem(it) {
 
   if (it.phase_type === "amendment") {
     const n = amendmentNumber(it.amendment_ref);
-    return n ? `Amendment ${n}` : "Amendment";
+    return n ? `Amendment ${n}` : (it.phase_label || "Amendment");
   }
 
   if (it.phase_type === "proposition_as_amended") {
