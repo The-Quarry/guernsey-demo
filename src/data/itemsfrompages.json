@@ -2459,12 +2459,23 @@
         "meeting_key": "m_2026_02_26",
         "meeting_date": "2026-02-26",
         "start_page": 5,
-        "end_page": 82,
+        "end_page": 8,
         "start_speech_id": "sp_m_2026_02_26_00001",
-        "end_speech_id": "sp_m_2026_02_26_00082",
+        "end_speech_id": "sp_m_2026_02_26_00003",
         "trigger": "heading",
         "confidence": "high"
+      },
+      {
+        "meeting_key": "m_2026_02_26",
+        "meeting_date": "2026-02-26",
+        "start_page": 53,
+        "end_page": 82,
+        "start_speech_id": "sp_m_2026_02_26_00037",
+        "end_speech_id": "sp_m_2026_02_26_00082",
+        "trigger": "bailiff_resume",
+        "confidence": "high"
       }
+    ]
     ],
     "parent_item_key": null,
     "agenda_item_label": "Tax Reform: Workstream 1",
