@@ -2504,8 +2504,8 @@
     "sort_order": 1,
     "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7-P2026-7-Sursis",
     "outcome": {
-      "label": "Lost",
-      "status": "lost"
+      "label": "defeated",
+      "status": "Defeated"
     },
     "notes": "Proposed by Deputies Jayne Ozanne and Aidan Matthews. A sursis is a procedural motion to defer the entire debate to a later sitting. The motion to suspend the rules to allow the sursis required a vote. It was defeated 13–21, meaning the sursis could not be laid and debate on the main proposition continued immediately.",
     "meeting_key": "m_2026_02_26"
@@ -2534,7 +2534,7 @@
     "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7-P2026-7-Amdt-1",
     "outcome": {
       "status": "defeated",
-      "label": "Lost"
+      "label": "Defeated"
     },
     "notes": "Proposed by Deputies Liam McKenna and Simon Vermeulen. Sought to delete all propositions and replace them with a direction that GST shall not be introduced, rescinding the November 2024 resolutions that set the GST course, and ordering P&R to cease all preparations. A direct attempt to kill GST entirely. Defeated 5–31.",
     "meeting_key": "m_2026_02_26"
@@ -2563,7 +2563,7 @@
     "detail_url": "https://parliament.gg/parliamentary-business/propositions/P2026-7-P2026-7-Amdt-2",
     "outcome": {
       "status": "defeated",
-      "label": "Lost"
+      "label": "Defeated"
     },
     "notes": "Proposed by Deputies Haley Camp and Mark Helyar. Sought to insert an additional proposition directing P&R to immediately cease all work on any form of territorial corporation tax — a rival revenue-raising option under study — and to amend the Tax Review Sub-committee's terms of reference to explicitly exclude it. Defeated 12–23.",
     "meeting_key": "m_2026_02_26"
